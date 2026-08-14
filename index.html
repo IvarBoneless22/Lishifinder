@@ -29,17 +29,17 @@ button{font:inherit}.mode{border:0;border-radius:13px;padding:11px 6px;font-weig
 .market{display:inline-block;font-size:10px;color:#536878;background:#edf2f5;border-radius:7px;padding:3px 6px;margin-top:4px}
 .model{font-size:17px;font-weight:800;margin-top:3px}.years{font-size:13px;color:var(--muted);margin-top:5px}
 .badge{background:#e2f1e6;color:#23683b;padding:8px 11px;border-radius:10px;font-weight:900;white-space:nowrap;height:max-content}
-.media{display:flex;gap:10px;align-items:center;margin-top:11px;flex-wrap:wrap}
-.mediaBox{border:1px solid var(--line);border-radius:12px;background:#f7f9fa;padding:6px}
-.mediaBox img{display:block;width:auto;height:90px;max-width:150px;object-fit:contain;border-radius:8px}
-.mediaLabel{font-size:10px;color:var(--muted);margin:0 0 5px 2px}
-.empty{padding:42px 12px;text-align:center;color:var(--muted)}
+
+
+
+
+.empty{padding:42px 12px;text-align:center;color:var(--muted)}.resetBtn{width:100%;border:0;border-radius:12px;padding:11px;margin:8px 0;background:#0b3554;color:#fff;font-weight:800}
 .clear{border:0;background:none;color:#fff;font-weight:700}
 .install{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px;margin:11px 0;font-size:13px;line-height:1.4}
 .install b{color:var(--nav)}
 .notice{background:#fff8df;border:1px solid #ead9a1;color:#5c4b12;border-radius:12px;padding:9px 11px;font-size:12px;margin:9px 0}
 footer{position:fixed;left:0;right:0;bottom:0;padding:9px 14px calc(9px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--line);z-index:30;text-align:center;color:var(--muted);font-size:11px}
-@media(min-width:600px){.mediaBox img{height:105px;max-width:180px}}
+@media(min-width:600px){}
 </style>
 </head>
 <body>
@@ -51,13 +51,13 @@ footer{position:fixed;left:0;right:0;bottom:0;padding:9px 14px calc(9px + env(sa
  <div class="search"><span>🔎</span><input id="q" placeholder="Toyota RAV4, Volkswagen Golf, TOY43AT…" autocomplete="off"><button class="clear" id="clr">×</button></div>
  <div class="modes"><button class="mode active" data-mode="auto">🚗 Авто → Lishi</button><button class="mode" data-mode="lishi">🔧 Lishi → Авто</button></div>
  <div class="filters"><select id="brand"><option value="">Усі марки</option></select><select id="tool"><option value="">Усі Lishi</option></select></div>
- <div class="notice">Каталог Toyota збережено. Фото Lishi спільне тільки для однакового коду Lishi. Кеш сайту оновлено, щоб старий <code>data.js</code> не залишався на iPhone.</div>
+ <div class="notice">Каталог сформовано тільки з наданих матеріалів. Фотографії та профілі не використовуються.</div><button id="resetApp" class="resetBtn">🔄 Видалити стару версію та завантажити оновлення</button>
  <div class="stats" id="stats"></div><div id="results"></div>
 </main>
 <footer>Lishi Finder • офлайн-каталог</footer>
 <script src="data.js?v=20260814-3"></script>
 <script>
-const D=window.LISHI_DATA||[];
+const D=(window.LISHI_DATA&&window.LISHI_DATA.cars)||[];
 const q=document.getElementById('q'),brand=document.getElementById('brand'),tool=document.getElementById('tool'),res=document.getElementById('results'),stats=document.getElementById('stats');
 let mode='auto';
 const norm=x=>String(x??'').toLowerCase().trim();
@@ -66,6 +66,7 @@ const norm=x=>String(x??'').toLowerCase().trim();
 
 function esc(x){return String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 
+function esc(x){return String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function render(){
  let query=norm(q.value),b=brand.value,t=tool.value;
  let a=D.filter(x=>(!b||x.brand===b)&&(!t||x.lishi===t));
@@ -73,27 +74,32 @@ function render(){
    let w=query.split(/\s+/).filter(Boolean);
    a=a.filter(x=>w.every(k=>[x.brand,x.model,x.years,x.lishi,x.market].some(v=>norm(v).includes(k))));
  }
- a.sort((x,y)=>mode==='auto'
-   ? (x.brand+x.model+x.market+x.years).localeCompare(y.brand+y.model+y.market+y.years)
-   : (x.lishi+x.brand+x.model+x.market).localeCompare(y.lishi+y.brand+y.model+y.market));
+ a.sort((x,y)=>(x.brand+x.model+x.market+x.years).localeCompare(y.brand+y.model+y.market+y.years));
  stats.textContent=`Знайдено: ${a.length}`;
  if(!a.length){res.innerHTML='<div class="empty">Нічого не знайдено.<br>Спробуй іншу марку, модель або Lishi.</div>';return}
  res.innerHTML=a.slice(0,500).map(x=>{
-   // IMPORTANT:
-   // Lishi photo is shared by Lishi CODE only.
-   // Key/profile/lock images and vehicle photos are NEVER spread to other records.
-   const lp=(DB.lishiPhotos||{})[x.lishi];
-   const lishiImg=lp?`<div class="mediaBox"><img loading="lazy" src="${esc(lp)}" alt="${esc(x.lishi)}"></div>`:'';
-   const carImg=x.vehicleImage?`<div class="mediaBox"><img loading="lazy" src="${esc(x.vehicleImage)}" alt="${esc(x.vehicleImageCaption||x.model)}"></div>`:'';
    const market=x.market?`<div class="market">${esc(x.market)}</div>`:'';
-   const media=(lishiImg||carImg)?`<div class="media">${carImg}${lishiImg}</div>`:'';
-   return `<div class="card"><div class="cardtop"><div class="info"><div class="brand">${esc(x.brand)}</div>${market}<div class="model">${esc(x.model)}</div><div class="years">${esc(x.years||'')}</div></div><div class="badge">${esc(x.lishi)}</div></div>${media}</div>`;
+   return `<div class="card"><div class="cardtop"><div class="info"><div class="brand">${esc(x.brand)}</div>${market}<div class="model">${esc(x.model)}</div><div class="years">${esc(x.years||'')}</div></div><div class="badge">${esc(x.lishi)}</div></div></div>`;
  }).join('');
 }
 document.querySelectorAll('.mode').forEach(b=>b.onclick=()=>{document.querySelectorAll('.mode').forEach(x=>x.classList.remove('active'));b.classList.add('active');mode=b.dataset.mode;render()});
 [q,brand,tool].forEach(x=>x.addEventListener('input',render));
 document.getElementById('clr').onclick=()=>{q.value='';render()};
 render();
+
+async function resetApp(){
+  const btn=document.getElementById('resetApp');
+  btn.disabled=true; btn.textContent='⏳ Очищення старої версії...';
+  try{
+    if('caches' in window){ const keys=await caches.keys(); await Promise.all(keys.map(k=>caches.delete(k))); }
+    if('serviceWorker' in navigator){ const regs=await navigator.serviceWorker.getRegistrations(); await Promise.all(regs.map(r=>r.unregister())); }
+    btn.textContent='✅ Стару версію видалено. Оновлюю...';
+    setTimeout(()=>location.reload(),500);
+  }catch(e){
+    btn.disabled=false; btn.textContent='❌ Не вдалося очистити кеш. Спробуйте ще раз';
+  }
+}
+document.getElementById('resetApp').addEventListener('click',resetApp);
 
 if('serviceWorker' in navigator){
   window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'}).then(r=>r.update()).catch(()=>{}));
