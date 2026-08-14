@@ -1,15 +1,9 @@
-Lishi Finder — FIXED PACKAGE
-
-Що виправлено:
-- додано Toyota з усіх наданих скріншотів каталогу;
-- прибрано помилковий рядок, де Audi/BMW/Citroen/Dacia були змішані в один запис;
-- додано фото Lishi для кодів, які є у наданих скріншотах;
-- додано надане фото Volkswagen Golf Wagon;
-- картки тепер показують фото Lishi та фото авто, якщо воно є;
-- пошук враховує марку, модель, роки, ринок і Lishi;
-- Service Worker оновлено: data.js/index.html завантажуються network-first, старий кеш видаляється;
-- додано cache-busting для data.js.
-
-ВАЖЛИВО:
-Розпакуйте ZIP і завантажте ВСІ файли та папку assets на GitHub Pages у корінь репозиторію.
-Не завантажуйте лише index.html/data.js окремо без папки assets, інакше фото не будуть знайдені.
+Завантаж на GitHub весь вміст цієї папки зі збереженням структури.
+ЗАМІНИ: index.html, data.js, sw.js, manifest.webmanifest, icon.svg.
+ДОДАЙ: media.js та папку assets.
+Структура медіа принципово розділена:
+carPhoto = фото автомобіля
+lishiPhoto = фото самої Lishi
+keyProfilePhoto = профіль ключа
+lockProfilePhoto = профіль замка
+Не змішувати ці категорії.

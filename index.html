@@ -1,98 +1,47 @@
 <!doctype html>
-<html lang="uk">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
-<meta name="theme-color" content="#0b3554">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Lishi Finder">
-<link rel="apple-touch-icon" href="icon.svg">
-<link rel="manifest" href="manifest.webmanifest">
-<title>Lishi Finder</title>
+<html lang="uk"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0b3554"><meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg"><title>Lishi Finder</title>
 <style>
-:root{--nav:#0b3554;--nav2:#155b7d;--bg:#f3f6f8;--card:#fff;--txt:#17212b;--muted:#71808d;--line:#e0e6eb}
-*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
-body{margin:0;background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",sans-serif}
-header{padding:calc(env(safe-area-inset-top) + 18px) 18px 18px;background:linear-gradient(145deg,var(--nav),var(--nav2));color:#fff;position:sticky;top:0;z-index:20}
-.brandline{display:flex;align-items:center;gap:10px}.logo{width:40px;height:40px;border-radius:12px;background:#fff2;display:grid;place-items:center;font-size:24px}
-h1{font-size:24px;margin:0;font-weight:800}header p{font-size:12px;margin:3px 0 0;opacity:.82}
-main{max-width:760px;margin:auto;padding:12px 14px calc(82px + env(safe-area-inset-bottom))}
-.search{background:#fff;border:1px solid var(--line);border-radius:16px;padding:4px 12px;display:flex;align-items:center;box-shadow:0 3px 14px #0000000b}
-.search span{font-size:20px}.search input{border:0;outline:0;width:100%;font-size:17px;padding:13px 9px;background:transparent}
-.modes{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:11px 0}
-button{font:inherit}.mode{border:0;border-radius:13px;padding:11px 6px;font-weight:800;background:#e7edf1;color:#334155}.mode.active{background:var(--nav);color:#fff}
-.filters{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}.filters select{min-width:145px;border:1px solid var(--line);border-radius:12px;padding:10px;background:#fff;font-size:14px}
-.stats{font-size:12px;color:var(--muted);margin:10px 3px}
-.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:12px;margin:8px 0;box-shadow:0 2px 10px #00000009}
-.cardtop{display:flex;justify-content:space-between;gap:10px}.info{min-width:0;flex:1}.brand{font-size:11px;text-transform:uppercase;color:var(--muted);font-weight:800}
-.market{display:inline-block;font-size:10px;color:#536878;background:#edf2f5;border-radius:7px;padding:3px 6px;margin-top:4px}
-.model{font-size:17px;font-weight:800;margin-top:3px}.years{font-size:13px;color:var(--muted);margin-top:5px}
-.badge{background:#e2f1e6;color:#23683b;padding:8px 11px;border-radius:10px;font-weight:900;white-space:nowrap;height:max-content}
-.media{display:flex;gap:10px;align-items:center;margin-top:11px;flex-wrap:wrap}
-.mediaBox{border:1px solid var(--line);border-radius:12px;background:#f7f9fa;padding:6px}
-.mediaBox img{display:block;width:auto;height:90px;max-width:150px;object-fit:contain;border-radius:8px}
-.mediaLabel{font-size:10px;color:var(--muted);margin:0 0 5px 2px}
-.empty{padding:42px 12px;text-align:center;color:var(--muted)}
-.clear{border:0;background:none;color:#fff;font-weight:700}
-.install{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px;margin:11px 0;font-size:13px;line-height:1.4}
-.install b{color:var(--nav)}
-.notice{background:#fff8df;border:1px solid #ead9a1;color:#5c4b12;border-radius:12px;padding:9px 11px;font-size:12px;margin:9px 0}
-footer{position:fixed;left:0;right:0;bottom:0;padding:9px 14px calc(9px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--line);z-index:30;text-align:center;color:var(--muted);font-size:11px}
-@media(min-width:600px){.mediaBox img{height:105px;max-width:180px}}
-</style>
-</head>
-<body>
-<header>
- <div class="brandline"><div class="logo">🔑</div><div><h1>Lishi Finder</h1><p>Автомобіль → відмичка • Lishi → автомобілі</p></div></div>
-</header>
+*{box-sizing:border-box}body{margin:0;background:#f3f6f8;color:#17212b;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+header{background:linear-gradient(145deg,#0b3554,#155b7d);color:#fff;padding:22px 16px;position:sticky;top:0;z-index:5}
+h1{margin:0;font-size:24px}.sub{opacity:.8;font-size:12px;margin-top:4px}main{max-width:780px;margin:auto;padding:14px 14px 80px}
+.search{display:flex;background:#fff;border:1px solid #dde5ea;border-radius:15px;padding:5px 10px}.search input{flex:1;border:0;outline:0;font-size:17px;padding:11px}.search button{border:0;background:none}
+.filters{display:flex;gap:8px;margin:10px 0;overflow:auto}.filters select{padding:10px;border:1px solid #dde5ea;border-radius:12px;background:#fff}
+.card{background:#fff;border:1px solid #dde5ea;border-radius:16px;margin:9px 0;padding:14px;cursor:pointer}
+.top{display:flex;justify-content:space-between;gap:10px}.brand{font-size:11px;color:#74808a;font-weight:800;text-transform:uppercase}.model{font-size:17px;font-weight:800}.years{font-size:13px;color:#74808a;margin-top:4px}.badge{font-weight:900;background:#e5f1e8;color:#23683b;padding:8px 10px;border-radius:10px;height:max-content}
+.thumb{width:100%;max-height:220px;object-fit:contain;border-radius:12px;margin-top:12px;background:#f5f7f8}
+#modal{display:none;position:fixed;inset:0;background:#0008;z-index:20;padding:12px;overflow:auto}.panel{max-width:780px;margin:30px auto;background:#fff;border-radius:20px;padding:16px}.close{float:right;border:0;background:#eef2f4;border-radius:10px;padding:8px 12px}
+.section{margin-top:16px}.section h3{font-size:14px;margin:0 0 8px}.photo{width:100%;max-height:330px;object-fit:contain;border-radius:12px;background:#f5f7f8}
+.empty{color:#74808a;text-align:center;padding:40px 10px}
+</style></head><body>
+<header><h1>🔑 Lishi Finder</h1><div class="sub">Авто → Lishi • окремо фото авто, Lishi, профілю ключа та профілю замка</div></header>
 <main>
- <div class="install">📱 <b>Для iPhone:</b> Safari → «Поділитися» → «На початковий екран».</div>
- <div class="search"><span>🔎</span><input id="q" placeholder="Toyota RAV4, Volkswagen Golf, TOY43AT…" autocomplete="off"><button class="clear" id="clr">×</button></div>
- <div class="modes"><button class="mode active" data-mode="auto">🚗 Авто → Lishi</button><button class="mode" data-mode="lishi">🔧 Lishi → Авто</button></div>
- <div class="filters"><select id="brand"><option value="">Усі марки</option></select><select id="tool"><option value="">Усі Lishi</option></select></div>
- <div class="notice">Оновлено каталог Toyota та додано фото Lishi. Кеш сайту оновлено, щоб старий <code>data.js</code> не залишався на iPhone.</div>
- <div class="stats" id="stats"></div><div id="results"></div>
+<div class="search"><input id="q" placeholder="Модель, кузов або Lishi"><button id="clear">✕</button></div>
+<div class="filters"><select id="brand"><option value="">Усі марки</option></select><select id="lishi"><option value="">Усі Lishi</option></select></div>
+<div id="count"></div><div id="list"></div>
 </main>
-<footer>Lishi Finder • офлайн-каталог</footer>
-<script src="data.js?v=20260814-2"></script>
-<script>
-const D=window.LISHI_DATA||[];
-const q=document.getElementById('q'),brand=document.getElementById('brand'),tool=document.getElementById('tool'),res=document.getElementById('results'),stats=document.getElementById('stats');
-let mode='auto';
-const norm=x=>String(x??'').toLowerCase().trim();
-[...new Set(D.map(x=>x.brand).filter(Boolean))].sort().forEach(x=>brand.add(new Option(x,x)));
-[...new Set(D.map(x=>x.lishi).filter(Boolean))].sort().forEach(x=>tool.add(new Option(x,x)));
-
-function esc(x){return String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
-
+<div id="modal"><div class="panel"><button class="close" onclick="closeModal()">Закрити</button><div id="detail"></div></div></div>
+<script src="data.js?v=20260814"></script><script src="media.js?v=20260814"></script><script>
+const D=window.LISHI_DATA||[], q=document.querySelector('#q'), b=document.querySelector('#brand'), l=document.querySelector('#lishi'), list=document.querySelector('#list');
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+[...new Set(D.map(x=>x.brand))].sort().forEach(x=>b.add(new Option(x,x)));
+[...new Set(D.map(x=>x.lishi))].sort().forEach(x=>l.add(new Option(x,x)));
 function render(){
- let query=norm(q.value),b=brand.value,t=tool.value;
- let a=D.filter(x=>(!b||x.brand===b)&&(!t||x.lishi===t));
- if(query){
-   let w=query.split(/\s+/).filter(Boolean);
-   a=a.filter(x=>w.every(k=>[x.brand,x.model,x.years,x.lishi,x.market].some(v=>norm(v).includes(k))));
- }
- a.sort((x,y)=>mode==='auto'
-   ? (x.brand+x.model+x.market+x.years).localeCompare(y.brand+y.model+y.market+y.years)
-   : (x.lishi+x.brand+x.model+x.market).localeCompare(y.lishi+y.brand+y.model+y.market));
- stats.textContent=`Знайдено: ${a.length}`;
- if(!a.length){res.innerHTML='<div class="empty">Нічого не знайдено.<br>Спробуй іншу марку, модель або Lishi.</div>';return}
- res.innerHTML=a.slice(0,500).map(x=>{
-   const lishiImg=x.lishiImage?`<div class="mediaBox"><div class="mediaLabel">Фото Lishi</div><img loading="lazy" src="${esc(x.lishiImage)}" alt="${esc(x.lishi)}"></div>`:'';
-   const carImg=x.vehicleImage?`<div class="mediaBox"><div class="mediaLabel">Фото авто</div><img loading="lazy" src="${esc(x.vehicleImage)}" alt="${esc(x.vehicleImageCaption||x.model)}"></div>`:'';
-   const market=x.market?`<div class="market">${esc(x.market)}</div>`:'';
-   const media=(lishiImg||carImg)?`<div class="media">${carImg}${lishiImg}</div>`:'';
-   return `<div class="card"><div class="cardtop"><div class="info"><div class="brand">${esc(x.brand)}</div>${market}<div class="model">${esc(x.model)}</div><div class="years">${esc(x.years||'')}</div></div><div class="badge">${esc(x.lishi)}</div></div>${media}</div>`;
- }).join('');
+ const s=q.value.toLowerCase().trim(),a=D.filter(x=>(!b.value||x.brand===b.value)&&(!l.value||x.lishi===l.value)&&(!s||[x.brand,x.model,x.years,x.lishi].join(' ').toLowerCase().includes(s)));
+ document.querySelector('#count').textContent=`Знайдено: ${a.length}`;
+ list.innerHTML=a.map((x,i)=>`<div class="card" onclick="openDetail(${D.indexOf(x)})"><div class="top"><div><div class="brand">${esc(x.brand)}</div><div class="model">${esc(x.model)}</div><div class="years">${esc(x.years)}</div></div><div class="badge">${esc(x.lishi)}</div></div>${x.media?.carPhoto?`<img class="thumb" src="${x.media.carPhoto}" alt="">`:''}</div>`).join('')||'<div class="empty">Нічого не знайдено</div>';
 }
-document.querySelectorAll('.mode').forEach(b=>b.onclick=()=>{document.querySelectorAll('.mode').forEach(x=>x.classList.remove('active'));b.classList.add('active');mode=b.dataset.mode;render()});
-[q,brand,tool].forEach(x=>x.addEventListener('input',render));
-document.getElementById('clr').onclick=()=>{q.value='';render()};
-render();
-
-if('serviceWorker' in navigator){
-  window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'}).then(r=>r.update()).catch(()=>{}));
+function openDetail(i){
+ const x=D[i],m=x.media||{}, car=m.carPhoto, lp=m.lishiPhoto, kp=m.keyProfilePhoto, zp=m.lockProfilePhoto;
+ document.querySelector('#detail').innerHTML=`<h2>${esc(x.brand)} ${esc(x.model)}</h2><div class="years">${esc(x.years)}</div>
+ <div class="section"><h3>🔧 Lishi</h3><b>${esc(x.lishi)}</b>${lp?`<img class="photo" src="${lp}" alt="">`: '<div class="empty">Фото Lishi ще не прив’язане до цього коду.</div>'}</div>
+ <div class="section"><h3>🚗 Фото автомобіля</h3>${car?`<img class="photo" src="${car}" alt="">`:'<div class="empty">Фото автомобіля ще не прив’язане.</div>'}</div>
+ <div class="section"><h3>🗝️ Профіль ключа</h3>${kp?`<img class="photo" src="${kp}" alt="">`:'<div class="empty">Фото профілю ключа ще не прив’язане.</div>'}</div>
+ <div class="section"><h3>🔒 Профіль замка</h3>${zp?`<img class="photo" src="${zp}" alt="">`:'<div class="empty">Фото профілю замка ще не прив’язане.</div>'}</div>`;
+ document.querySelector('#modal').style.display='block';
 }
-</script>
-</body></html>
+function closeModal(){document.querySelector('#modal').style.display='none'} q.oninput=render;b.onchange=render;l.onchange=render;document.querySelector('#clear').onclick=()=>{q.value='';render()};render();
+if('serviceWorker' in navigator) addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=4'));
+</script></body></html>
