@@ -1,40 +1,21 @@
-const CACHE='lishi-finder-iphone-v3';
-const ASSETS=['./','./index.html','./data.js','./manifest.webmanifest','./icon.svg'];
-
-self.addEventListener('install', event => {
-  self.skipWaiting();
-  event.waitUntil(
-    caches.open(CACHE).then(cache => cache.addAll(ASSETS))
-  );
+const CACHE='lishi-finder-v3-20260814';
+const PRECACHE=['./','./index.html','./manifest.webmanifest','./icon.svg'];
+self.addEventListener('install',event=>{
+  event.waitUntil(caches.open(CACHE).then(c=>c.addAll(PRECACHE)).then(()=>self.skipWaiting()));
 });
-
-self.addEventListener('activate', event => {
-  event.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(
-        keys.filter(key => key !== CACHE).map(key => caches.delete(key))
-      )
-    ).then(() => self.clients.claim())
-  );
+self.addEventListener('activate',event=>{
+  event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));
 });
-
-self.addEventListener('fetch', event => {
-  const url = new URL(event.request.url);
-
-  if (url.pathname.endsWith('/data.js') || url.pathname.endsWith('/index.html')) {
-    event.respondWith(
-      fetch(event.request, {cache:'no-store'})
-        .then(response => {
-          const copy = response.clone();
-          caches.open(CACHE).then(cache => cache.put(event.request, copy));
-          return response;
-        })
-        .catch(() => caches.match(event.request))
-    );
+self.addEventListener('fetch',event=>{
+  const url=new URL(event.request.url);
+  if(event.request.method!=='GET') return;
+  if(url.pathname.endsWith('/data.js') || url.pathname.endsWith('/index.html') || url.pathname.endsWith('/sw.js')){
+    event.respondWith(fetch(event.request,{cache:'no-store'}).then(r=>{
+      const copy=r.clone(); caches.open(CACHE).then(c=>c.put(event.request,copy)); return r;
+    }).catch(()=>caches.match(event.request)));
     return;
   }
-
-  event.respondWith(
-    caches.match(event.request).then(cached => cached || fetch(event.request))
-  );
+  event.respondWith(caches.match(event.request).then(cached=>cached||fetch(event.request).then(r=>{
+    const copy=r.clone(); caches.open(CACHE).then(c=>c.put(event.request,copy)); return r;
+  })));
 });
