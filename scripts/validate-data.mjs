@@ -25,6 +25,9 @@ for(const [index,record] of (catalog.cars||[]).entries()){
   if(record.status==="verified"&&(!record.lishi||!String(record.lishi).trim()))problem(index,"перевірений запис не має коду Lishi");
   if(record.status!=="verified"&&(!record.note||!record.note.trim()))problem(index,"неперевірений запис не має пояснення");
   if(record.lishi!==null&&record.lishi!==undefined&&!/^[A-Za-z0-9-]+$/.test(record.lishi))problem(index,"некоректний код Lishi");
+  if(record.alternativeLishi!==null&&record.alternativeLishi!==undefined&&!/^[A-Za-z0-9-]+$/.test(record.alternativeLishi))problem(index,"некоректний альтернативний код Lishi");
+  if(record.alternativeLishi&&(!record.alternativeSource||!String(record.alternativeSource).trim()))problem(index,"альтернативний код не має джерела");
+  if(record.alternativeLishi&&(!record.note||!String(record.note).trim()))problem(index,"альтернативний код не має примітки");
   if(record.chip!==null&&record.chip!==undefined&&!/^[A-Za-z0-9-]+$/.test(record.chip))problem(index,"некоректний код чипа");
   const key=[record.brand,record.model,record.years,(record.markets||[]).join(","),record.ignition].join("|");
   if(seen.has(key))problem(index,"дубльований запис автомобіля");
