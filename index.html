@@ -42,7 +42,17 @@
         <button class="mode" type="button" data-mode="lishi" aria-pressed="false">🔧 Lishi → Авто</button>
       </div>
       <div class="filterGrid">
-        <div class="field"><label for="brand">Марка</label><select id="brand"><option value="">Усі марки</option></select></div>
+        <div class="field brandField">
+          <label id="brandLabel" for="brandButton">Марка</label>
+          <div class="brandPicker" id="brandPicker">
+            <input id="brand" type="hidden" value="">
+            <button class="brandSelectButton" id="brandButton" type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="brandMenu">
+              <span class="brandButtonValue"><span id="brandButtonIcon" class="brandMark brandMarkAll" aria-hidden="true">🚘</span><span id="brandButtonText" class="brandButtonText">Усі марки</span></span>
+              <span class="brandChevron" aria-hidden="true">⌄</span>
+            </button>
+            <div class="brandMenu" id="brandMenu" role="listbox" aria-labelledby="brandLabel" hidden></div>
+          </div>
+        </div>
         <div class="field"><label for="market">Ринок</label><select id="market"><option value="">Усі ринки</option></select></div>
         <div class="field"><label for="ignition">Тип ключа</label><select id="ignition"><option value="">Будь-який</option><option value="key">Механічний ключ</option><option value="smart">Смарт-ключ / слот</option><option value="prox">Безключовий доступ</option><option value="unknown">Не вказано</option></select></div>
         <div class="field"><label for="year">Рік</label><input id="year" type="number" min="1900" max="2100" inputmode="numeric" placeholder="Напр. 2018"></div>
@@ -62,3 +72,4 @@
   <script src="app.js"></script>
 </body>
 </html>
+

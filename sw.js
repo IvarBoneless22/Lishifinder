@@ -1,4 +1,4 @@
-const CACHE="lishi-finder-v6-20260817";
+const CACHE="lishi-finder-v7-20260817";
 const PRECACHE=["./","./index.html","./styles.css","./app.js","./data.js","./manifest.webmanifest","./icon.svg"];
 const NETWORK_FIRST=["index.html","styles.css","app.js","data.js","manifest.webmanifest","sw.js"];
 self.addEventListener("install",event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(PRECACHE)).then(()=>self.skipWaiting()));});
@@ -8,3 +8,4 @@ async function networkFirst(request){
   catch(error){const cached=await caches.match(request);if(cached)return cached;if(request.mode==="navigate")return caches.match("./index.html");throw error;}
 }
 self.addEventListener("fetch",event=>{if(event.request.method!=="GET")return;const url=new URL(event.request.url);if(url.origin!==self.location.origin)return;const file=url.pathname.split("/").pop();if(event.request.mode==="navigate"||NETWORK_FIRST.includes(file)){event.respondWith(networkFirst(event.request));return;}event.respondWith(caches.match(event.request).then(cached=>cached||fetch(event.request).then(async response=>{if(response&&response.ok){const cache=await caches.open(CACHE);cache.put(event.request,response.clone());}return response;})));});
+
