@@ -1,1 +1,5112 @@
-window.LISHI_DATA={"cars":[{"brand":"Audi","model":"A1 8X Key Start","years":"2011–2018","lishi":"HU66"},{"brand":"Audi","model":"A1 KESSY Push Button Start","years":"2011–2018","lishi":"HU66"},{"brand":"Audi","model":"A3","years":"1999","lishi":"HU66"},{"brand":"Audi","model":"A3 8P","years":"2004–2012","lishi":"HU66"},{"brand":"Audi","model":"A3 8V Key Start","years":"2012–2017","lishi":"HU66"},{"brand":"Audi","model":"A4","years":"2001","lishi":"HU66"},{"brand":"Audi","model":"A4 (B5/8D)","years":"1998–2001","lishi":"HU66"},{"brand":"Audi","model":"A4 (B6/8E)","years":"2001–2004","lishi":"HU66"},{"brand":"Audi","model":"A4 (B7/8E)","years":"2005–2008","lishi":"HU66"},{"brand":"Audi","model":"A4 Key Start","years":"1995–1997","lishi":"HU49"},{"brand":"Audi","model":"A5","years":"2017–2019","lishi":"HU162T-8"},{"brand":"Audi","model":"A5 Slot/","years":"2008–08/2016","lishi":"HU66"},{"brand":"Audi","model":"A6 C6 Type 4F","years":"2004–2011","lishi":"HU66"},{"brand":"Audi","model":"Q2 ","years":"2017–2023","lishi":"HU162T-9"},{"brand":"Audi","model":"Q3 8U ","years":"2012–2017","lishi":"HU66"},{"brand":"Audi","model":"Q3 8U Key Start","years":"2011–2018","lishi":"HU66"},{"brand":"Audi","model":"Q3 Key Start","years":"2020","lishi":"HU162T-9"},{"brand":"Audi","model":"Q5 Slot/Smart","years":"2009–2017","lishi":"HU66"},{"brand":"Audi","model":"Q7 ","years":"2006–2014","lishi":"HU66"},{"brand":"Audi","model":"RS5","years":"2020","lishi":"HU162T-10"},{"brand":"Audi","model":"S3 ","years":"2015","lishi":"HU66"},{"brand":"Audi","model":"S3 8P","years":"2006–2013","lishi":"HU66"},{"brand":"Audi","model":"SQ5 FY ","years":"01/2022","lishi":"HU162T-10"},{"brand":"Audi","model":"TT","years":"1999–2002","lishi":"HU66"},{"brand":"BMW","model":"1 Series E81/E82/E87/E88 Slot","years":"2004–2013","lishi":"HU92R"},{"brand":"BMW","model":"1 Series F20","years":"2012–2019","lishi":"HU127T"},{"brand":"BMW","model":"2 Series F45","years":"2014–2019","lishi":"HU127T"},{"brand":"BMW","model":"3 Series E36","years":"1995–1998","lishi":"HU58"},{"brand":"BMW","model":"3 Series E90/E91/E92/E93 Slot (US)","years":"2005–2011","lishi":"HU92R"},{"brand":"BMW","model":"3 Series F30 Slot","years":"2011–2018","lishi":"HU127T"},{"brand":"BMW","model":"320i E46","years":"12/1997–08/2006","lishi":"HU92R"},{"brand":"BMW","model":"420i F32 Coupe","years":"2013+","lishi":"HU127T"},{"brand":"BMW","model":"5 Series E39","years":"1997–2004","lishi":"HU58"},{"brand":"BMW","model":"5 Series E60 Slot","years":"2003–2010","lishi":"HU92R"},{"brand":"BMW","model":"5 Series F07/F10/F11/F18","years":"2010–2018","lishi":"HU127T"},{"brand":"BMW","model":"6 Series E63/E64 Slot","years":"2004–2010","lishi":"HU92R"},{"brand":"BMW","model":"6 Series F12/F13","years":"2011–2018","lishi":"HU127T"},{"brand":"BMW","model":"7 Series E38","years":"1994–2001","lishi":"HU58"},{"brand":"BMW","model":"7 Series E65 Slot","years":"2002–2004","lishi":"HU92R"},{"brand":"BMW","model":"7 Series E66 Slot","years":"2004–2008","lishi":"HU92R"},{"brand":"BMW","model":"7 Series F01/F02/F03/F04","years":"2008–2015","lishi":"HU127T"},{"brand":"BMW","model":"M2 Competition  Push Button","years":"2016–2021","lishi":"HU100"},{"brand":"BMW","model":"M3 E46","years":"1999–2006","lishi":"HU92R"},{"brand":"BMW","model":"M3 E90/E92/E93 Slot","years":"2007–2013","lishi":"HU92R"},{"brand":"BMW","model":"M3 F80 ","years":"2014–2019","lishi":"HU127T"},{"brand":"BMW","model":"M4 F82/F83 ","years":"2014–2020","lishi":"HU127T"},{"brand":"BMW","model":"M5 E60/E61","years":"2004–2010","lishi":"HU92R"},{"brand":"BMW","model":"M6 E63/E64 Slot","years":"2005–2010","lishi":"HU92R"},{"brand":"BMW","model":"X1 E84 Slot","years":"2009–2015","lishi":"HU92R"},{"brand":"BMW","model":"X1 F48","years":"2015–2022","lishi":"HU127T"},{"brand":"BMW","model":"X1 U11/U12","years":"2022–2024","lishi":"HU127T"},{"brand":"BMW","model":"X3 E83","years":"2002–2010","lishi":"HU92R"},{"brand":"BMW","model":"X3 F25 P/Button start no prox","years":"2010–08/2017","lishi":"HU127T"},{"brand":"BMW","model":"X3 G01","years":"2018–2020","lishi":"HU127T"},{"brand":"BMW","model":"X5 E53 Key Start","years":"2002–2006","lishi":"HU92R"},{"brand":"BMW","model":"X5 E70 Slot","years":"2006–2013","lishi":"HU92R"},{"brand":"BMW","model":"X5 F15 ","years":"08/2013–2018","lishi":"HU127T"},{"brand":"BMW","model":"X6 E71 Slot","years":"2008–2013","lishi":"HU92R"},{"brand":"BMW","model":"Z4 E85/E86","years":"2002–2009","lishi":"HU92R"},{"brand":"Citroen","model":"Berlingo B9","years":"2008-2018","lishi":"VAT2"},{"brand":"Citroen","model":"Berlingo BSI 1,2,3","years":"2003-2007","lishi":"SX9AP"},{"brand":"Citroen","model":"Berlingo K9 Key Start","years":"2018-2023","lishi":"HU83"},{"brand":"Citroen","model":"Berlingo Key","years":"2002-2007","lishi":"VAT2"},{"brand":"Citroen","model":"Berlingo Key","years":"2009-2018","lishi":"VAT2"},{"brand":"Citroen","model":"Berlingo Key Start","years":"2024-2024","lishi":"HU83"},{"brand":"Citroen","model":"Berlingo VF7G/H","years":"2003-2007","lishi":"VAT2"},{"brand":"Citroen","model":"C1 Key","years":"2005-2014","lishi":"VAT2"},{"brand":"Citroen","model":"C2 Key","years":"2003-2009","lishi":"VAT2"},{"brand":"Citroen","model":"C3","years":"01/2006-09/2010","lishi":"VAT2"},{"brand":"Citroen","model":"C3 Aircross A88 Key Start","years":"2017-2023","lishi":"HU83"},{"brand":"Citroen","model":"C3 Aircross Key Start","years":"2006-2016","lishi":"HU83"},{"brand":"Citroen","model":"C3 SX/SY Key Start","years":"2016-2023","lishi":"HU83"},{"brand":"Citroen","model":"C4","years":"2003-2010","lishi":"VAT2"},{"brand":"Citroen","model":"C4 Cactus F3 Key Start","years":"2018-2023","lishi":"HU83"},{"brand":"Citroen","model":"C5 Aircross (gen2) Key Start","years":"2017-2024","lishi":"HU83"},{"brand":"Citroen","model":"C8","years":"1995-2014","lishi":"HU83"},{"brand":"Citroen","model":"Dispatch K0 Key Start","years":"2017-2023","lishi":"HU83"},{"brand":"Citroen","model":"DS3","years":"2009-2016","lishi":"VAT2"},{"brand":"Citroen","model":"DS3 D34 Key Start","years":"2019-2023","lishi":"HU83"},{"brand":"Citroen","model":"DS4","years":"2011-2016","lishi":"VAT2"},{"brand":"Citroen","model":"Jumper","years":"2002-2010","lishi":"SIP22"},{"brand":"Citroen","model":"Jumper","years":"2012-2017","lishi":"SIP22"},{"brand":"Citroen","model":"Jumpy","years":"2007-2016","lishi":"HU83"},{"brand":"Citroen","model":"Jumpy E3 Key Start","years":"2017-2023","lishi":"HU83"},{"brand":"Citroen","model":"Nemo X225 Key Start","years":"2007-2015","lishi":"SIP22"},{"brand":"Citroen","model":"Relay X250","years":"2012-2018","lishi":"SIP22"},{"brand":"Dacia","model":"Dokker Key Start","years":"2012-2016","lishi":"HU136"},{"brand":"Dacia","model":"Duster Key Start","years":"2010-2013","lishi":"HU136"},{"brand":"Dacia","model":"Duster Key Start","years":"2014-2016","lishi":"VAT2"},{"brand":"Dacia","model":"Duster Key Start","years":"2016-2019","lishi":"VAT2"},{"brand":"Dacia","model":"Duster Key Start","years":"2019-2021","lishi":"VAT2"},{"brand":"Dacia","model":"Jogger Key Start","years":"2021-2024","lishi":"VAT2"},{"brand":"Dacia","model":"Logan Key Start","years":"2004-2011","lishi":"HU136"},{"brand":"Dacia","model":"Sandero Stepaway Key Start","years":"2008-2012","lishi":"HU136"},{"brand":"Dacia","model":"Sandero Stepaway Key Start","years":"2012-2014","lishi":"VAT2"},{"brand":"Dacia","model":"Sandero Stepaway Key Start","years":"2014-2020","lishi":"VAT2"},{"brand":"Dacia","model":"Sandero Stepaway Key Start","years":"2021-2024","lishi":"VAT2"},{"brand":"Mercedes-Benz","model":"A-Class W168 Key Start","years":"1997–2004","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"A-Class W169 Fobik","years":"2004–2012","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"A-Class W176 Fobik","years":"2012–2014","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"B-Class W245 Fobik","years":"2005–2011","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"B-Class W246 Fobik","years":"2011–2014","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"C-Class W203 Fobik","years":"2000–2008","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"C-Class W204 Fobik","years":"2007–2014","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"C-Class W205 ","years":"2014–2021","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"CL-Class C215 Fobik","years":"1999–2006","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"CL-Class C216 Fobik","years":"2006–2013","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"CL-Class W140 Key Start","years":"1996–1999","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"CLA-Class C117 Fobik","years":"2013–2014","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"CLK-Class W208 Fobik","years":"1997–2002","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"CLK-Class W209 Fobik","years":"2003–2010","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"CLS Fobik","years":"2004–2010","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"E-Class AMG E63 W213 ","years":"2017–10/2023","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"E-Class W124 Key Start","years":"1984–1995","lishi":"HU39"},{"brand":"Mercedes-Benz","model":"E-Class W210 Fobik","years":"1996–2002","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"E-Class W211 Fobik","years":"2003–2009","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"E-Class W212 Fobik","years":"2010–2014","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"G-Class W463 Fobik","years":"2000–2007","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"GLB Class","years":"2019+","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"ML320 W164 Fobik","years":"2005–2011","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"S-Class Fobik","years":"1998–2005","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"SLK R170","years":"01/2000","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"Sprinter","years":"1998–2006","lishi":"YM15"},{"brand":"Mercedes-Benz","model":"Sprinter W906","years":"2006–2018","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"Vito","years":"1999","lishi":"YM15"},{"brand":"Mercedes-Benz","model":"Vito Fobik","years":"2004–2015","lishi":"HU64"},{"brand":"Mercedes-Benz","model":"X-Class W470 ","years":"2017–2020","lishi":"NSN14"},{"brand":"Renault","model":"Arkana ","years":"2019-2023","lishi":"VA6"},{"brand":"Renault","model":"Captur","years":"2013-2015","lishi":"VAT2"},{"brand":"Renault","model":"Captur ()","years":"2015-2020","lishi":"VAT2"},{"brand":"Renault","model":"Clio II X65 Phase 1 Key","years":"1998-2001","lishi":"NE72"},{"brand":"Renault","model":"Clio II X65 Phase 2/3","years":"2001-2008","lishi":"NE72"},{"brand":"Renault","model":"Clio III","years":"2006-2012","lishi":"VAT2"},{"brand":"Renault","model":"Clio IV","years":"2013-2019","lishi":"VAT2"},{"brand":"Renault","model":"Espace 5 prox","years":"2015+","lishi":"VAT2"},{"brand":"Renault","model":"Fluence  Slot","years":"2010-2015","lishi":"VAT2"},{"brand":"Renault","model":"Kangoo","years":"2010-08/2013","lishi":"VAT2"},{"brand":"Renault","model":"Kangoo ","years":"2011","lishi":"VAT2"},{"brand":"Renault","model":"Kangoo X61 Phase II Key","years":"08/2013-2020","lishi":"VAT2"},{"brand":"Renault","model":"Koleos (Card)","years":"09/2008-10/2011","lishi":"Not Found"},{"brand":"Renault","model":"Laguna 3","years":"2009-2015","lishi":"VAT2"},{"brand":"Renault","model":"Master X62","years":"2010-2019","lishi":"VAT2"},{"brand":"Renault","model":"Master X70","years":"2004-2010","lishi":"NE72"},{"brand":"Renault","model":"Megane 3","years":"2012-2015","lishi":"VAT2"},{"brand":"Renault","model":"Megane 4 prox","years":"2015+","lishi":"VAT2"},{"brand":"Renault","model":"Scenic","years":"2001-2004","lishi":"NE72"},{"brand":"Renault","model":"Scenic","years":"2005-2009","lishi":"VAT2"},{"brand":"Renault","model":"Scenic 3 Phase2","years":"2012-2014","lishi":"VAT2"},{"brand":"Renault","model":"Scenic 3 Phase3","years":"2013-2015","lishi":"VAT2"},{"brand":"Renault","model":"Scenic 4 prox","years":"2015+","lishi":"VAT2"},{"brand":"Renault","model":"Talisman prox","years":"2015+","lishi":"VAT2"},{"brand":"Renault","model":"Trafic 3 Key Start","years":"2014-2020","lishi":"VAT2"},{"brand":"Renault","model":"Trafic Key Start","years":"2004-2014","lishi":"NE73"},{"brand":"Renault","model":"Twingo 3 (Key)","years":"2014+","lishi":"VAT2"},{"brand":"Volkswagen","model":"Amarok 2H Key Start","years":"2010–2016","lishi":"HU66"},{"brand":"Volkswagen","model":"Amarok Key","years":"2017–2022","lishi":"HU66"},{"brand":"Volkswagen","model":"Beetle 5C Key Start","years":"2011–2016","lishi":"HU66"},{"brand":"Volkswagen","model":"Beetle 9C","years":"2000–2005","lishi":"HU66"},{"brand":"Volkswagen","model":"Beetle A4","years":"2005–2010","lishi":"HU66"},{"brand":"Volkswagen","model":"Bora 1J Key Start","years":"1999–2005","lishi":"HU66"},{"brand":"Volkswagen","model":"Bora 9M","years":"2008–2012","lishi":"HU66"},{"brand":"Volkswagen","model":"Caddy 2C","years":"2016–2020","lishi":"HU66"},{"brand":"Volkswagen","model":"Caddy 2K","years":"2005–2010","lishi":"HU66"},{"brand":"Volkswagen","model":"Caddy 2KN","years":"2010–2016","lishi":"HU66"},{"brand":"Volkswagen","model":"Crafter","years":"2006+","lishi":"HU64"},{"brand":"Volkswagen","model":"Crafter","years":"2018","lishi":"HU162T-9"},{"brand":"Volkswagen","model":"Crafter 35 Key Start","years":"2020–2025","lishi":"HU162T-9"},{"brand":"Volkswagen","model":"Eos","years":"2006+","lishi":"HU66"},{"brand":"Volkswagen","model":"Eos 1F","years":"2010–2016","lishi":"HU66"},{"brand":"Volkswagen","model":"Golf","years":"1995–1998","lishi":"HU49"},{"brand":"Volkswagen","model":"Golf 5K Key Start","years":"2009–2013","lishi":"HU66"},{"brand":"Volkswagen","model":"Golf MK4 1J","years":"1998–2004","lishi":"HU66"},{"brand":"Volkswagen","model":"Golf MK5","years":"2004–2009","lishi":"HU66"},{"brand":"Volkswagen","model":"Golf MK6 Key","years":"2008–2012","lishi":"HU66"},{"brand":"Volkswagen","model":"Golf MK7  Push Button","years":"2013–2018","lishi":"HU66"},{"brand":"Volkswagen","model":"Golf MK7 5G Key Start","years":"2012–2019","lishi":"HU66"},{"brand":"Volkswagen","model":"Golf Plus Key Start","years":"2012–2016","lishi":"HU66"},{"brand":"Volkswagen","model":"Golf R MK7 -Push Button","years":"2013–2017","lishi":"HU66"},{"brand":"Volkswagen","model":"Jetta Key Start","years":"2009–2016","lishi":"HU66"},{"brand":"Volkswagen","model":"Jetta Key Start","years":"2017–2020","lishi":"HU66"},{"brand":"Volkswagen","model":"Jetta US","years":"2000–2005","lishi":"HU66"},{"brand":"Volkswagen","model":"Jetta US","years":"2005–2012","lishi":"HU66"},{"brand":"Volkswagen","model":"Passat","years":"1997–2005","lishi":"HU66"},{"brand":"Volkswagen","model":"Passat","years":"2003","lishi":"HU66"},{"brand":"Volkswagen","model":"Passat 3C B6 Slot","years":"2006–2010","lishi":"HU66"},{"brand":"Volkswagen","model":"Passat 3C B7 Slot","years":"2010–2015","lishi":"HU66"},{"brand":"Volkswagen","model":"Passat B8 ","years":"10/2015–2021","lishi":"HU162T-8"},{"brand":"Volkswagen","model":"Passat CC B6 Slot","years":"2006–2010","lishi":"HU66"},{"brand":"Volkswagen","model":"Passat CC B6 Slot","years":"2010–2015","lishi":"HU66"},{"brand":"Volkswagen","model":"Polo 2015","years":"2015","lishi":"HU66"},{"brand":"Volkswagen","model":"Polo 6R","years":"2014–2018","lishi":"HU162T-8"},{"brand":"Volkswagen","model":"Polo 6R1 Key Start","years":"05/2010–04/2014","lishi":"HU66"},{"brand":"Volkswagen","model":"Polo 9N3","years":"2006–2010","lishi":"HU66"},{"brand":"Volkswagen","model":"Polo AW Key Start","years":"2012–2019","lishi":"HU66"},{"brand":"Volkswagen","model":"Polo AW MQB48","years":"2017+","lishi":"HU162T-8"},{"brand":"Volkswagen","model":"Polo AW MQB5c","years":"06/2018–2026","lishi":"HU162T-8"},{"brand":"Volkswagen","model":"T-Cross Key Start","years":"2017–2022","lishi":"HU162T-8"},{"brand":"Volkswagen","model":"T-Roc","years":"2017–2021","lishi":"HU162T-10"},{"brand":"Volkswagen","model":"T5 Multivan","years":"2012–2016","lishi":"HU162T-8"},{"brand":"Volkswagen","model":"Tiguan","years":"2018–2020","lishi":"HU162T-8"},{"brand":"Volkswagen","model":"Tiguan","years":"2021","lishi":"HU162T-9"},{"brand":"Volkswagen","model":"Tiguan ","years":"2009–2015","lishi":"HU66"},{"brand":"Volkswagen","model":"Tiguan -Push Button","years":"2020–2024","lishi":"HU162T-10"},{"brand":"Volkswagen","model":"Tiguan 5N Key","years":"2008–2016","lishi":"HU66"},{"brand":"Volkswagen","model":"Tiguan 5N Key Start","years":"2010–2015","lishi":"HU66"},{"brand":"Volkswagen","model":"Touareg 7L","years":"2003–2008","lishi":"HU66"},{"brand":"Volkswagen","model":"Touareg 7L","years":"2008–2010","lishi":"HU66"},{"brand":"Volkswagen","model":"Touareg Key Start","years":"2018–2025","lishi":"HU162T-10"},{"brand":"Volkswagen","model":"Transporter T4","years":"1997–2004","lishi":"HU66"},{"brand":"Volkswagen","model":"Transporter T5","years":"2004–2009","lishi":"HU66"},{"brand":"Volkswagen","model":"Transporter T5 (7E–7H)","years":"2010–2016","lishi":"HU66"},{"brand":"Volkswagen","model":"Transporter T6","years":"2016–2019","lishi":"HU66"},{"brand":"Volkswagen","model":"Transporter T6 facelift","years":"2019+","lishi":"HU162T-8"},{"brand":"Volkswagen","model":"Transporter T7  Push Button","years":"2025–2027","lishi":"HU198T"},{"brand":"Volkswagen","model":"Up","years":"2011–2016","lishi":"HU66"},{"brand":"Toyota","model":"Aurion GSV50 Key","years":"04/2012-03/2015","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Aurion GSV50R Prox","years":"10/2011-09/2017","lishi":"TOY40","market":"AU"},{"brand":"Toyota","model":"Aurion Key Start ACV40/GSV40","years":"10/2006-2010","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Avalon GSX40L Prox","years":"10/2012-09/2015","lishi":"TOY40","market":"AU"},{"brand":"Toyota","model":"Avalon MCX10","years":"04/2000-06/2005","lishi":"TOY43","market":"AU"},{"brand":"Toyota","model":"Avalon MCX10","years":"2001-2005","lishi":"TOY43","market":"AU"},{"brand":"Toyota","model":"Tundra Key","years":"2007-2017","lishi":"TOY43AT","market":"US"},{"brand":"Toyota","model":"Tundra Key","years":"2017-2019","lishi":"TOY43AT","market":"US"},{"brand":"Toyota","model":"Tundra Prox Push Button","years":"2024","lishi":"TOY48-e","market":"US"},{"brand":"Toyota","model":"Venza GGV","years":"2008-2017","lishi":"TOY43AT","market":"US"},{"brand":"Toyota","model":"Yaris Key","years":"2008-2011","lishi":"TOY43AT","market":"US"},{"brand":"Toyota","model":"Yaris Key","years":"2012-2014","lishi":"TOY43AT","market":"US"},{"brand":"Toyota","model":"Hilux KDN165","years":"07/2002-2005","lishi":"TOY38R","market":"AU"},{"brand":"Toyota","model":"Kluger GSU40R Prox","years":"2010-2014","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Kluger GSU45 Prox","years":"2007-2010","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"Kluger GSU4x Key Start","years":"07/2010-11/2013","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Kluger GSU50/55 Prox","years":"2013-2020","lishi":"TOY48-e","market":"AU"},{"brand":"Toyota","model":"Kluger GSU50R Key Start","years":"12/2013-10/2016","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"Estima R50 Prox","years":"01/2006-09/2019","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"FJ Cruiser GSJ15R","years":"2011-2016","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Fortuna GUN156 Prox","years":"2015-2024","lishi":"TOY48-e","market":"AU"},{"brand":"Toyota","model":"HiAce","years":"1989-2004","lishi":"TOY38R","market":"AU"},{"brand":"Toyota","model":"HiAce GDH3 Key Start","years":"2019-2024","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"HiAce H2","years":"03/2005-08/2010","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Camry Hybrid GSV70 Prox","years":"12/2017+","lishi":"TOY40","market":"AU"},{"brand":"Toyota","model":"Camry MCV36","years":"05/2005-07/2006","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Camry SXV20/MCV20","years":"08/1997-08/2002","lishi":"TOY43","market":"AU"},{"brand":"Toyota","model":"Celica ZZT231","years":"11/1999-2006","lishi":"TOY43","market":"AU"},{"brand":"Toyota","model":"Corolla","years":"1995-1997","lishi":"TOY43","market":"AU"},{"brand":"Toyota","model":"Corolla AE101, AE112","years":"07/1996-2002","lishi":"TOY43","market":"AU"},{"brand":"Toyota","model":"RAV4 SXA10 SXA11","years":"1998-04/2000","lishi":"TOY43","market":"AU"},{"brand":"Toyota","model":"RAV4 ACA22/23","years":"07/2003-10/2005","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"RAV4 ACA33","years":"11/2005-12/2009","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"RAV4 Key Start","years":"2019-2021","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"Rukus AZE151 Prox","years":"2010-2015","lishi":"TOY48-e","market":"AU"},{"brand":"Toyota","model":"Sienta Prox Push Button","years":"2015-2020","lishi":"TOY40","market":"AU"},{"brand":"Toyota","model":"Prius NHW11 Key Start","years":"2001-2003","lishi":"TOY43","market":"AU"},{"brand":"Toyota","model":"Prius NHW20 Prox","years":"2003-2009","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Prius NHW20 Slot","years":"2003-2009","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Prius ZVW30, NHP10 Prox","years":"2009-2015","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"Prius ZVW40 Prox","years":"2012-2015","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"Prius ZVW40 Prox","years":"2016-2021","lishi":"TOY48-e","market":"AU"},{"brand":"Toyota","model":"Esquire R80 Prox Push Button","years":"2014-2025","lishi":"TOY48-e","market":"AU/Asia"},{"brand":"Toyota","model":"Corolla Cross MXG Prox Push Button","years":"2022-2025","lishi":"TOY48-e","market":"AU/US"},{"brand":"Toyota","model":"Corolla E211 Prox","years":"2019-2022","lishi":"TOY48-e","market":"AU/US"},{"brand":"Toyota","model":"Corolla MZEA12 Prox Push Button","years":"2022-2025","lishi":"TOY48-e","market":"AU/US"},{"brand":"Toyota","model":"Camry ASV50R Key Start","years":"2011-2015","lishi":"TOY43AT","market":"AUS"},{"brand":"Toyota","model":"Hilux GUN126R 08/2022-07/2023 Key Start","years":"2022-2023","lishi":"TOY48","market":"AUS"},{"brand":"Toyota","model":"Landcruiser FZJ80 & HZJ80 Key Start","years":"08/1992-12/1997","lishi":"TOY40","market":"AU"},{"brand":"Toyota","model":"Landcruiser HDJ100R","years":"2002-2007","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"Landcruiser HDJ79","years":"08/2001-12/2006","lishi":"TOY38R","market":"AU"},{"brand":"Toyota","model":"Landcruiser HZJ105R","years":"05/2005-07/2007","lishi":"TOY40","market":"AU"},{"brand":"Toyota","model":"Landcruiser HZJ105R","years":"1997-2002","lishi":"TOY40","market":"AU"},{"brand":"Toyota","model":"Landcruiser HZJ79 HZJ79R","years":"10/1999-10/2007","lishi":"TOY38R","market":"AU"},{"brand":"Toyota","model":"Corolla ZRE182 Key Start","years":"2012-05/2018","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"Corolla ZZE","years":"12/2001-09/2005","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Echo NCP10L/R 1NZ-FE","years":"1999-2002","lishi":"TOY43","market":"AU"},{"brand":"Toyota","model":"Echo NCP10L/R 2NZ-FE","years":"1999-2002","lishi":"TOY43","market":"AU"},{"brand":"Toyota","model":"Echo NCP11L/R","years":"2002-2006","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Estima ACR30","years":"2000-2003","lishi":"TOY43","market":"AU"},{"brand":"Toyota","model":"4Runner N280","years":"2009+","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"86 ZN6G Key Start","years":"04/2012-2022","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"86 ZNG Prox","years":"2012-2022","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"Alphard GGH30 Prox","years":"2020-2024","lishi":"TOY48-e","market":"AU"},{"brand":"Toyota","model":"Aurion GSV40R","years":"09/2009-03/2012","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Aurion GSV40R Prox","years":"2006-2009","lishi":"TOY40","market":"AU"},{"brand":"Toyota","model":"Landcruiser VDJ79","years":"10/2007-2009","lishi":"TOY38R","market":"AU"},{"brand":"Toyota","model":"Landcruiser VDJ79","years":"2016-2021","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Landcruiser VX, GX URJ202, VDJ200","years":"05/2008-2014","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"Lexcen T3 Sdn","years":"07/1993-04/1995","lishi":"HU43","market":"AU"},{"brand":"Toyota","model":"Lexcen T4,T5 Sdn","years":"05/1995-08/1997","lishi":"HU43","market":"AU"},{"brand":"Toyota","model":"MR2 ZZW30","years":"2000-2007","lishi":"TOY43","market":"AU"},{"brand":"Toyota","model":"Landcruiser KZJ95","years":"01/2000-08/2002","lishi":"TOY43","market":"AU"},{"brand":"Toyota","model":"Landcruiser UZJ100 2UZ-FE","years":"1997-08/2002","lishi":"TOY43","market":"AU"},{"brand":"Toyota","model":"Landcruiser UZJ100R","years":"08/2002-04/2005","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"Landcruiser VDJ200 Prox","years":"05/2007-2009","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"Landcruiser VDJ200 Prox","years":"05/2015-04/2020","lishi":"TOY48-e","market":"AU"},{"brand":"Toyota","model":"Landcruiser VDJ76R,78R,79R","years":"01/2007-07/2016","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Camry Prox Push Button","years":"2018-2024","lishi":"TOY40","market":"US"},{"brand":"Toyota","model":"Corolla","years":"2005-2007","lishi":"TOY43AT","market":"US"},{"brand":"Toyota","model":"Corolla Key","years":"2014-2019","lishi":"TOY43AT","market":"US"},{"brand":"Toyota","model":"Corolla Prox","years":"2014-2019","lishi":"TOY48-e","market":"US"},{"brand":"Toyota","model":"FJ Cruiser Key","years":"2013-2015","lishi":"TOY43AT","market":"US"},{"brand":"Toyota","model":"Highlander Hybrid Prox","years":"2020-2021","lishi":"TOY48-e","market":"US"},{"brand":"Toyota","model":"Prado GDJ150 Prox","years":"08/2017-2025","lishi":"TOY48-e","market":"AU"},{"brand":"Toyota","model":"Prado GRJ120","years":"2002-2010","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Prado KDJ120","years":"2006-2009","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Prado KDJ150, GRJ150 Prox","years":"08/2009-05/2015","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"Prado VZJ95","years":"11/1999-10/2002","lishi":"TOY43","market":"AU"},{"brand":"Toyota","model":"Prius C NHP10 Prox","years":"2012-2020","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"HiAce H2 Key Start","years":"01/2014-2019","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"HiAce H2 Key Start","years":"08/2010-12/2013","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Hilux","years":"02/2005-2009","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Hilux","years":"08/2009-05/2015","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Hilux GUN126 Key","years":"05/2015-04/2020","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"Hilux GUN126 Prox","years":"2015-2022","lishi":"TOY48-e","market":"AU"},{"brand":"Toyota","model":"Yaris NCP93R","years":"08/2008-06/2016","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"bZ4X Prox","years":"2023-2024","lishi":"TOY48-e","market":"AU"},{"brand":"Toyota","model":"Yaris Key Start MXPA10","years":"2020-2026","lishi":"TOY48","market":"AU,EU"},{"brand":"Toyota","model":"C-HR Key","years":"2016-2019","lishi":"TOY48","market":"AU,US"},{"brand":"Toyota","model":"C-HR Prox","years":"2016-2023","lishi":"TOY48-e","market":"AU,US"},{"brand":"Toyota","model":"C-HR Prox","years":"2022-2024","lishi":"TOY48-e","market":"AU,US"},{"brand":"Toyota","model":"Brevis","years":"05/2001-12/2007","lishi":"TOY48","market":"JA"},{"brand":"Toyota","model":"Prius Hybrid Prox Push Button","years":"2015-2022","lishi":"TOY40","market":"JP"},{"brand":"Toyota","model":"Vitz Prox","years":"2012-2020","lishi":"TOY48","market":"JP"},{"brand":"Toyota","model":"4 Runner","years":"2003-2010","lishi":"TOY43AT","market":"US"},{"brand":"Toyota","model":"4 Runner Key","years":"2010-2018","lishi":"TOY43AT","market":"US"},{"brand":"Toyota","model":"Camry Key Start","years":"2018-2024","lishi":"TOY40","market":"US"},{"brand":"Toyota","model":"Yaris Key","years":"2015-2017","lishi":"TOY43AT","market":"US"},{"brand":"Toyota","model":"bZ4X Prox","years":"2023-2026","lishi":"TOY48-e","market":"US"},{"brand":"Toyota","model":"T100 Pickup Key Start","years":"1990-1990","lishi":"TOY43","market":"USA"},{"brand":"Toyota","model":"Hilux GUN227R Prox Push Button","years":"2025-2026","lishi":"TOY48-e","market":"AUS"},{"brand":"Toyota","model":"Auris Key Start","years":"2012-2018","lishi":"TOY51","market":"EU"},{"brand":"Toyota","model":"Auris NDE150R","years":"12/2009-09/2012","lishi":"TOY47","market":"EU"},{"brand":"Toyota","model":"Avensis AZT220, CDT220, CT220, ST220, ZZT2…","years":"","lishi":"TOY47","market":"EU"},{"brand":"Toyota","model":"Avensis AZT250","years":"01/2003-10/2008","lishi":"TOY47","market":"EU"},{"brand":"Toyota","model":"Aygo Key Start","years":"2014-2021","lishi":"TOY49","market":"EU"},{"brand":"Toyota","model":"Camry ACV40/GSV40 Key Start","years":"08/2006-06/2009","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Camry ACV40/GSV40 Prox","years":"2006-2009","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"Camry ASV50R, AVV50R Prox","years":"04/2015-05/2017","lishi":"TOY40","market":"AU"},{"brand":"Toyota","model":"Camry ASV70 Prox","years":"2017-2023","lishi":"TOY48-e","market":"AU"},{"brand":"Toyota","model":"Camry AXVH71 Prox","years":"2018-2024","lishi":"TOY48-e","market":"AU"},{"brand":"Toyota","model":"Camry Hybrid AHV40 Prox","years":"07/2009-02/2012","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"Highlander Hybrid Prox","years":"2022-2023","lishi":"TOY48-e","market":"EU"},{"brand":"Toyota","model":"Yaris KSP210 Prox Push Button","years":"2020-2026","lishi":"TOY49","market":"EU"},{"brand":"Toyota","model":"Yaris SCP#, NLP10","years":"01/2001-11/2005","lishi":"TOY47","market":"EU"},{"brand":"Toyota","model":"Yaris SP90 Key Start","years":"2005-2009","lishi":"TOY47","market":"EU"},{"brand":"Toyota","model":"Sienta Prox Push Button","years":"2015-2020","lishi":"TOY40","market":"Global"},{"brand":"Toyota","model":"Alphard","years":"05/2002-05/2008","lishi":"TOY43AT","market":"JA"},{"brand":"Toyota","model":"Matrix","years":"2005-2007","lishi":"TOY43AT","market":"US"},{"brand":"Toyota","model":"Matrix","years":"2007-2010","lishi":"TOY43AT","market":"US"},{"brand":"Toyota","model":"Matrix","years":"2010-2013","lishi":"TOY43AT","market":"US"},{"brand":"Toyota","model":"Matrix","years":"2013-2014","lishi":"TOY43AT","market":"US"},{"brand":"Toyota","model":"RAV4 Prox","years":"2019-2023","lishi":"TOY48-e","market":"US"},{"brand":"Toyota","model":"RAV4","years":"2004-2006","lishi":"TOY43","market":"US"},{"brand":"Toyota","model":"Tarago ASR50,GSR50","years":"12/2008-04/2012","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Tundra Key","years":"2009-2016","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Yaris Cross Prox","years":"2022-2023","lishi":"TOY48-e","market":"AU"},{"brand":"Toyota","model":"Yaris NCP130R/131R","years":"07/2014-2017","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Yaris NCP130R/131R","years":"12/2011-06/2014","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Yaris NCP90R/93L","years":"2005-11/2011","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Carina","years":"1992-1998","lishi":"TOY47","market":"EU"},{"brand":"Toyota","model":"Celica Key Start","years":"08/1995-04/1999","lishi":"TOY43","market":"EU"},{"brand":"Toyota","model":"Corolla #120 Sdn/Wgn","years":"01/2002-02/2007","lishi":"TOY47","market":"EU"},{"brand":"Toyota","model":"Corolla #11 Hatch","years":"11/1999-11/2001","lishi":"TOY47","market":"EU"},{"brand":"Toyota","model":"Corolla Verso Prox-Slot","years":"2004-2009","lishi":"TOY43","market":"EU"},{"brand":"Toyota","model":"Corolla ZRE210R/ZRE211L Key Start","years":"2019-2022","lishi":"TOY48","market":"EU"},{"brand":"Toyota","model":"Spacia SR40","years":"1998-2001","lishi":"TOY43","market":"AU"},{"brand":"Toyota","model":"Tarago 50 ser Prox","years":"07/2012-2019","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"Tarago ACR10/11","years":"1997-04/2000","lishi":"TOY30","market":"AU"},{"brand":"Toyota","model":"Tarago ACR30","years":"04/2000-04/2003","lishi":"TOY43","market":"AU"},{"brand":"Toyota","model":"Tarago ACR30","years":"04/2003-01/2006","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Tarago ACR50,GSR50","years":"2006-02/2009","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Corolla E186R Prox","years":"2016-2018","lishi":"TOY48-e","market":"AU"},{"brand":"Toyota","model":"Corolla ZRE152 Key Start","years":"2007-09/2009","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Corolla ZRE153 Prox","years":"04/2010-10/2013","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"Corolla ZRE162","years":"10/2009-2012","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Corolla ZRE172 (MRO53) Key","years":"2014-2019","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Corolla ZRE172 (MRO53) Prox","years":"12/2013-09/2016","lishi":"TOY48-e","market":"AU"},{"brand":"Toyota","model":"RAV4","years":"2006-2010","lishi":"TOY43AT","market":"US"},{"brand":"Toyota","model":"RAV4 Key","years":"2010-2012","lishi":"TOY43AT","market":"US"},{"brand":"Toyota","model":"RAV4 Key","years":"2013-2018","lishi":"TOY43AT","market":"US"},{"brand":"Toyota","model":"RAV4 Key","years":"2019-2024","lishi":"TOY48","market":"US"},{"brand":"Toyota","model":"RAV4 Prox","years":"2013-2018","lishi":"TOY40","market":"US"},{"brand":"Toyota","model":"Tacoma Key Start","years":"02/2011-2015","lishi":"TOY43AT","market":"US"},{"brand":"Toyota","model":"Prius ZVW50 Prox","years":"2016-2022","lishi":"TOY48-e","market":"AU"},{"brand":"Toyota","model":"RAV4","years":"12/2012-09/2015","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"RAV4 ACA38R","years":"2010-2012","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"RAV4 ALA40R Key Start","years":"2012-2018","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"RAV4 ALA40R Prox","years":"2012-2018","lishi":"TOY48-e","market":"AU"},{"brand":"Toyota","model":"RAV4 AXAH52, AXAL52 Prox","years":"2019-2024","lishi":"TOY48-e","market":"AU"},{"brand":"Toyota","model":"Avensis ACM21","years":"2003-2010","lishi":"TOY43AT","market":"AU"},{"brand":"Toyota","model":"Camry ASV70R Key Start","years":"12/2017-2024","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"Camry","years":"1994-1998","lishi":"TOY43","market":"AU"},{"brand":"Toyota","model":"Camry","years":"2012-2014","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"Camry","years":"2014+","lishi":"TOY48","market":"AU"},{"brand":"Toyota","model":"Camry ACV40/GSV40","years":"07/2009-11/2011","lishi":"TOY43AT","market":"AU"}]};
+window.LISHI_DATA={
+  "version": "2026-08-17",
+  "cars": [
+    {
+      "brand": "Audi",
+      "model": "A1 8X Key Start",
+      "years": "2011–2018",
+      "yearFrom": 2011,
+      "yearTo": 2018,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "A1 KESSY Push Button Start",
+      "years": "2011–2018",
+      "yearFrom": 2011,
+      "yearTo": 2018,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "prox",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "A3",
+      "years": "1999",
+      "yearFrom": 1999,
+      "yearTo": 1999,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "A3 8P",
+      "years": "2004–2012",
+      "yearFrom": 2004,
+      "yearTo": 2012,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "A3 8V Key Start",
+      "years": "2012–2017",
+      "yearFrom": 2012,
+      "yearTo": 2017,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "A4",
+      "years": "2001",
+      "yearFrom": 2001,
+      "yearTo": 2001,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "A4 (B5/8D)",
+      "years": "1998–2001",
+      "yearFrom": 1998,
+      "yearTo": 2001,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "A4 (B6/8E)",
+      "years": "2001–2004",
+      "yearFrom": 2001,
+      "yearTo": 2004,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "A4 (B7/8E)",
+      "years": "2005–2008",
+      "yearFrom": 2005,
+      "yearTo": 2008,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "A4 Key Start",
+      "years": "1995–1997",
+      "yearFrom": 1995,
+      "yearTo": 1997,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU49",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "A5",
+      "years": "2017–2019",
+      "yearFrom": 2017,
+      "yearTo": 2019,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU162T-8",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "A5 Slot",
+      "years": "2008–08/2016",
+      "yearFrom": 2008,
+      "yearTo": 2016,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "A6 C6 Type 4F",
+      "years": "2004–2011",
+      "yearFrom": 2004,
+      "yearTo": 2011,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "Q2",
+      "years": "2017–2023",
+      "yearFrom": 2017,
+      "yearTo": 2023,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU162T-9",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "Q3 8U",
+      "years": "2012–2017",
+      "yearFrom": 2012,
+      "yearTo": 2017,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "Q3 8U Key Start",
+      "years": "2011–2018",
+      "yearFrom": 2011,
+      "yearTo": 2018,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "Q3 Key Start",
+      "years": "2020",
+      "yearFrom": 2020,
+      "yearTo": 2020,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU162T-9",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "Q5 Slot/Smart",
+      "years": "2009–2017",
+      "yearFrom": 2009,
+      "yearTo": 2017,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "Q7",
+      "years": "2006–2014",
+      "yearFrom": 2006,
+      "yearTo": 2014,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "RS5",
+      "years": "2020",
+      "yearFrom": 2020,
+      "yearTo": 2020,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU162T-10",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "S3",
+      "years": "2015",
+      "yearFrom": 2015,
+      "yearTo": 2015,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "S3 8P",
+      "years": "2006–2013",
+      "yearFrom": 2006,
+      "yearTo": 2013,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "SQ5 FY",
+      "years": "01/2022",
+      "yearFrom": 2022,
+      "yearTo": 2022,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU162T-10",
+      "status": "verified"
+    },
+    {
+      "brand": "Audi",
+      "model": "TT",
+      "years": "1999–2002",
+      "yearFrom": 1999,
+      "yearTo": 2002,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "1 Series E81/E82/E87/E88 Slot",
+      "years": "2004–2013",
+      "yearFrom": 2004,
+      "yearTo": 2013,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU92R",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "1 Series F20",
+      "years": "2012–2019",
+      "yearFrom": 2012,
+      "yearTo": 2019,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU127T",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "2 Series F45",
+      "years": "2014–2019",
+      "yearFrom": 2014,
+      "yearTo": 2019,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU127T",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "3 Series E36",
+      "years": "1995–1998",
+      "yearFrom": 1995,
+      "yearTo": 1998,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU58",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "3 Series E90/E91/E92/E93 Slot (US)",
+      "years": "2005–2011",
+      "yearFrom": 2005,
+      "yearTo": 2011,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU92R",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "3 Series F30 Slot",
+      "years": "2011–2018",
+      "yearFrom": 2011,
+      "yearTo": 2018,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU127T",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "320i E46",
+      "years": "12/1997–08/2006",
+      "yearFrom": 1997,
+      "yearTo": 2006,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU92R",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "420i F32 Coupe",
+      "years": "2013+",
+      "yearFrom": 2013,
+      "yearTo": 2013,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU127T",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "5 Series E39",
+      "years": "1997–2004",
+      "yearFrom": 1997,
+      "yearTo": 2004,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU58",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "5 Series E60 Slot",
+      "years": "2003–2010",
+      "yearFrom": 2003,
+      "yearTo": 2010,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU92R",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "5 Series F07/F10/F11/F18",
+      "years": "2010–2018",
+      "yearFrom": 2010,
+      "yearTo": 2018,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU127T",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "6 Series E63/E64 Slot",
+      "years": "2004–2010",
+      "yearFrom": 2004,
+      "yearTo": 2010,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU92R",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "6 Series F12/F13",
+      "years": "2011–2018",
+      "yearFrom": 2011,
+      "yearTo": 2018,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU127T",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "7 Series E38",
+      "years": "1994–2001",
+      "yearFrom": 1994,
+      "yearTo": 2001,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU58",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "7 Series E65 Slot",
+      "years": "2002–2004",
+      "yearFrom": 2002,
+      "yearTo": 2004,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU92R",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "7 Series E66 Slot",
+      "years": "2004–2008",
+      "yearFrom": 2004,
+      "yearTo": 2008,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU92R",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "7 Series F01/F02/F03/F04",
+      "years": "2008–2015",
+      "yearFrom": 2008,
+      "yearTo": 2015,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU127T",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "M2 Competition Push Button",
+      "years": "2016–2021",
+      "yearFrom": 2016,
+      "yearTo": 2021,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "prox",
+      "lishi": "HU100",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "M3 E46",
+      "years": "1999–2006",
+      "yearFrom": 1999,
+      "yearTo": 2006,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU92R",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "M3 E90/E92/E93 Slot",
+      "years": "2007–2013",
+      "yearFrom": 2007,
+      "yearTo": 2013,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU92R",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "M3 F80",
+      "years": "2014–2019",
+      "yearFrom": 2014,
+      "yearTo": 2019,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU127T",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "M4 F82/F83",
+      "years": "2014–2020",
+      "yearFrom": 2014,
+      "yearTo": 2020,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU127T",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "M5 E60/E61",
+      "years": "2004–2010",
+      "yearFrom": 2004,
+      "yearTo": 2010,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU92R",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "M6 E63/E64 Slot",
+      "years": "2005–2010",
+      "yearFrom": 2005,
+      "yearTo": 2010,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU92R",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "X1 E84 Slot",
+      "years": "2009–2015",
+      "yearFrom": 2009,
+      "yearTo": 2015,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU92R",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "X1 F48",
+      "years": "2015–2022",
+      "yearFrom": 2015,
+      "yearTo": 2022,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU127T",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "X1 U11/U12",
+      "years": "2022–2024",
+      "yearFrom": 2022,
+      "yearTo": 2024,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU127T",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "X3 E83",
+      "years": "2002–2010",
+      "yearFrom": 2002,
+      "yearTo": 2010,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU92R",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "X3 F25 P/Button start no prox",
+      "years": "2010–08/2017",
+      "yearFrom": 2010,
+      "yearTo": 2017,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "prox",
+      "lishi": "HU127T",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "X3 G01",
+      "years": "2018–2020",
+      "yearFrom": 2018,
+      "yearTo": 2020,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU127T",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "X5 E53 Key Start",
+      "years": "2002–2006",
+      "yearFrom": 2002,
+      "yearTo": 2006,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU92R",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "X5 E70 Slot",
+      "years": "2006–2013",
+      "yearFrom": 2006,
+      "yearTo": 2013,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU92R",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "X5 F15",
+      "years": "08/2013–2018",
+      "yearFrom": 2013,
+      "yearTo": 2018,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU127T",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "X6 E71 Slot",
+      "years": "2008–2013",
+      "yearFrom": 2008,
+      "yearTo": 2013,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU92R",
+      "status": "verified"
+    },
+    {
+      "brand": "BMW",
+      "model": "Z4 E85/E86",
+      "years": "2002–2009",
+      "yearFrom": 2002,
+      "yearTo": 2009,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU92R",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "Berlingo B9",
+      "years": "2008-2018",
+      "yearFrom": 2008,
+      "yearTo": 2018,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "Berlingo BSI 1,2,3",
+      "years": "2003-2007",
+      "yearFrom": 2003,
+      "yearTo": 2007,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "SX9AP",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "Berlingo K9 Key Start",
+      "years": "2018-2023",
+      "yearFrom": 2018,
+      "yearTo": 2023,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU83",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "Berlingo Key",
+      "years": "2002-2007",
+      "yearFrom": 2002,
+      "yearTo": 2007,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "Berlingo Key",
+      "years": "2009-2018",
+      "yearFrom": 2009,
+      "yearTo": 2018,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "Berlingo Key Start",
+      "years": "2024-2024",
+      "yearFrom": 2024,
+      "yearTo": 2024,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU83",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "Berlingo VF7G/H",
+      "years": "2003-2007",
+      "yearFrom": 2003,
+      "yearTo": 2007,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "C1 Key",
+      "years": "2005-2014",
+      "yearFrom": 2005,
+      "yearTo": 2014,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "C2 Key",
+      "years": "2003-2009",
+      "yearFrom": 2003,
+      "yearTo": 2009,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "C3",
+      "years": "01/2006-09/2010",
+      "yearFrom": 2006,
+      "yearTo": 2010,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "C3 Aircross A88 Key Start",
+      "years": "2017-2023",
+      "yearFrom": 2017,
+      "yearTo": 2023,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU83",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "C3 Aircross Key Start",
+      "years": "2006-2016",
+      "yearFrom": 2006,
+      "yearTo": 2016,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU83",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "C3 SX/SY Key Start",
+      "years": "2016-2023",
+      "yearFrom": 2016,
+      "yearTo": 2023,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU83",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "C4",
+      "years": "2003-2010",
+      "yearFrom": 2003,
+      "yearTo": 2010,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "C4 Cactus F3 Key Start",
+      "years": "2018-2023",
+      "yearFrom": 2018,
+      "yearTo": 2023,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU83",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "C5 Aircross (gen2) Key Start",
+      "years": "2017-2024",
+      "yearFrom": 2017,
+      "yearTo": 2024,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU83",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "C8",
+      "years": "1995-2014",
+      "yearFrom": 1995,
+      "yearTo": 2014,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU83",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "Dispatch K0 Key Start",
+      "years": "2017-2023",
+      "yearFrom": 2017,
+      "yearTo": 2023,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU83",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "DS3",
+      "years": "2009-2016",
+      "yearFrom": 2009,
+      "yearTo": 2016,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "DS3 D34 Key Start",
+      "years": "2019-2023",
+      "yearFrom": 2019,
+      "yearTo": 2023,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU83",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "DS4",
+      "years": "2011-2016",
+      "yearFrom": 2011,
+      "yearTo": 2016,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "Jumper",
+      "years": "2002-2010",
+      "yearFrom": 2002,
+      "yearTo": 2010,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "SIP22",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "Jumper",
+      "years": "2012-2017",
+      "yearFrom": 2012,
+      "yearTo": 2017,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "SIP22",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "Jumpy",
+      "years": "2007-2016",
+      "yearFrom": 2007,
+      "yearTo": 2016,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU83",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "Jumpy E3 Key Start",
+      "years": "2017-2023",
+      "yearFrom": 2017,
+      "yearTo": 2023,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU83",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "Nemo X225 Key Start",
+      "years": "2007-2015",
+      "yearFrom": 2007,
+      "yearTo": 2015,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "SIP22",
+      "status": "verified"
+    },
+    {
+      "brand": "Citroen",
+      "model": "Relay X250",
+      "years": "2012-2018",
+      "yearFrom": 2012,
+      "yearTo": 2018,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "SIP22",
+      "status": "verified"
+    },
+    {
+      "brand": "Dacia",
+      "model": "Dokker Key Start",
+      "years": "2012-2016",
+      "yearFrom": 2012,
+      "yearTo": 2016,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU136",
+      "status": "verified"
+    },
+    {
+      "brand": "Dacia",
+      "model": "Duster Key Start",
+      "years": "2010-2013",
+      "yearFrom": 2010,
+      "yearTo": 2013,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU136",
+      "status": "verified"
+    },
+    {
+      "brand": "Dacia",
+      "model": "Duster Key Start",
+      "years": "2014-2016",
+      "yearFrom": 2014,
+      "yearTo": 2016,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Dacia",
+      "model": "Duster Key Start",
+      "years": "2016-2019",
+      "yearFrom": 2016,
+      "yearTo": 2019,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Dacia",
+      "model": "Duster Key Start",
+      "years": "2019-2021",
+      "yearFrom": 2019,
+      "yearTo": 2021,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Dacia",
+      "model": "Jogger Key Start",
+      "years": "2021-2024",
+      "yearFrom": 2021,
+      "yearTo": 2024,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Dacia",
+      "model": "Logan Key Start",
+      "years": "2004-2011",
+      "yearFrom": 2004,
+      "yearTo": 2011,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU136",
+      "status": "verified"
+    },
+    {
+      "brand": "Dacia",
+      "model": "Sandero Stepway Key Start",
+      "years": "2008-2012",
+      "yearFrom": 2008,
+      "yearTo": 2012,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU136",
+      "status": "verified"
+    },
+    {
+      "brand": "Dacia",
+      "model": "Sandero Stepway Key Start",
+      "years": "2012-2014",
+      "yearFrom": 2012,
+      "yearTo": 2014,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Dacia",
+      "model": "Sandero Stepway Key Start",
+      "years": "2014-2020",
+      "yearFrom": 2014,
+      "yearTo": 2020,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Dacia",
+      "model": "Sandero Stepway Key Start",
+      "years": "2021-2024",
+      "yearFrom": 2021,
+      "yearTo": 2024,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "A-Class W168 Key Start",
+      "years": "1997–2004",
+      "yearFrom": 1997,
+      "yearTo": 2004,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "A-Class W169 Fobik",
+      "years": "2004–2012",
+      "yearFrom": 2004,
+      "yearTo": 2012,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "A-Class W176 Fobik",
+      "years": "2012–2014",
+      "yearFrom": 2012,
+      "yearTo": 2014,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "B-Class W245 Fobik",
+      "years": "2005–2011",
+      "yearFrom": 2005,
+      "yearTo": 2011,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "B-Class W246 Fobik",
+      "years": "2011–2014",
+      "yearFrom": 2011,
+      "yearTo": 2014,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "C-Class W203 Fobik",
+      "years": "2000–2008",
+      "yearFrom": 2000,
+      "yearTo": 2008,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "C-Class W204 Fobik",
+      "years": "2007–2014",
+      "yearFrom": 2007,
+      "yearTo": 2014,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "C-Class W205",
+      "years": "2014–2021",
+      "yearFrom": 2014,
+      "yearTo": 2021,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "CL-Class C215 Fobik",
+      "years": "1999–2006",
+      "yearFrom": 1999,
+      "yearTo": 2006,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "CL-Class C216 Fobik",
+      "years": "2006–2013",
+      "yearFrom": 2006,
+      "yearTo": 2013,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "CL-Class W140 Key Start",
+      "years": "1996–1999",
+      "yearFrom": 1996,
+      "yearTo": 1999,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "CLA-Class C117 Fobik",
+      "years": "2013–2014",
+      "yearFrom": 2013,
+      "yearTo": 2014,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "CLK-Class W208 Fobik",
+      "years": "1997–2002",
+      "yearFrom": 1997,
+      "yearTo": 2002,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "CLK-Class W209 Fobik",
+      "years": "2003–2010",
+      "yearFrom": 2003,
+      "yearTo": 2010,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "CLS Fobik",
+      "years": "2004–2010",
+      "yearFrom": 2004,
+      "yearTo": 2010,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "E-Class AMG E63 W213",
+      "years": "2017–10/2023",
+      "yearFrom": 2017,
+      "yearTo": 2023,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "E-Class W124 Key Start",
+      "years": "1984–1995",
+      "yearFrom": 1984,
+      "yearTo": 1995,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU39",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "E-Class W210 Fobik",
+      "years": "1996–2002",
+      "yearFrom": 1996,
+      "yearTo": 2002,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "E-Class W211 Fobik",
+      "years": "2003–2009",
+      "yearFrom": 2003,
+      "yearTo": 2009,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "E-Class W212 Fobik",
+      "years": "2010–2014",
+      "yearFrom": 2010,
+      "yearTo": 2014,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "G-Class W463 Fobik",
+      "years": "2000–2007",
+      "yearFrom": 2000,
+      "yearTo": 2007,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "GLB Class",
+      "years": "2019+",
+      "yearFrom": 2019,
+      "yearTo": 2019,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "ML320 W164 Fobik",
+      "years": "2005–2011",
+      "yearFrom": 2005,
+      "yearTo": 2011,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "S-Class Fobik",
+      "years": "1998–2005",
+      "yearFrom": 1998,
+      "yearTo": 2005,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "SLK R170",
+      "years": "01/2000",
+      "yearFrom": 2000,
+      "yearTo": 2000,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "Sprinter",
+      "years": "1998–2006",
+      "yearFrom": 1998,
+      "yearTo": 2006,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "YM15",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "Sprinter W906",
+      "years": "2006–2018",
+      "yearFrom": 2006,
+      "yearTo": 2018,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "Vito",
+      "years": "1999",
+      "yearFrom": 1999,
+      "yearTo": 1999,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "YM15",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "Vito Fobik",
+      "years": "2004–2015",
+      "yearFrom": 2004,
+      "yearTo": 2015,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "X-Class W470",
+      "years": "2017–2020",
+      "yearFrom": 2017,
+      "yearTo": 2020,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "NSN14",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Arkana",
+      "years": "2019-2023",
+      "yearFrom": 2019,
+      "yearTo": 2023,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "VA6",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Captur",
+      "years": "2013-2015",
+      "yearFrom": 2013,
+      "yearTo": 2015,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Captur",
+      "years": "2015-2020",
+      "yearFrom": 2015,
+      "yearTo": 2020,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Clio II X65 Phase 1 Key",
+      "years": "1998-2001",
+      "yearFrom": 1998,
+      "yearTo": 2001,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "NE72",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Clio II X65 Phase 2/3",
+      "years": "2001-2008",
+      "yearFrom": 2001,
+      "yearTo": 2008,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "NE72",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Clio III",
+      "years": "2006-2012",
+      "yearFrom": 2006,
+      "yearTo": 2012,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Clio IV",
+      "years": "2013-2019",
+      "yearFrom": 2013,
+      "yearTo": 2019,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Espace 5 prox",
+      "years": "2015+",
+      "yearFrom": 2015,
+      "yearTo": 2015,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "prox",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Fluence Slot",
+      "years": "2010-2015",
+      "yearFrom": 2010,
+      "yearTo": 2015,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Kangoo",
+      "years": "2010-08/2013",
+      "yearFrom": 2010,
+      "yearTo": 2013,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Kangoo",
+      "years": "2011",
+      "yearFrom": 2011,
+      "yearTo": 2011,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Kangoo X61 Phase II Key",
+      "years": "08/2013-2020",
+      "yearFrom": 2013,
+      "yearTo": 2020,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Koleos (Card)",
+      "years": "09/2008-10/2011",
+      "yearFrom": 2008,
+      "yearTo": 2011,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": null,
+      "status": "not_available",
+      "note": "Для цього запису в наданому джерелі не вказано перевірений код Lishi."
+    },
+    {
+      "brand": "Renault",
+      "model": "Laguna 3",
+      "years": "2009-2015",
+      "yearFrom": 2009,
+      "yearTo": 2015,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Master X62",
+      "years": "2010-2019",
+      "yearFrom": 2010,
+      "yearTo": 2019,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Master X70",
+      "years": "2004-2010",
+      "yearFrom": 2004,
+      "yearTo": 2010,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "NE72",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Megane 3",
+      "years": "2012-2015",
+      "yearFrom": 2012,
+      "yearTo": 2015,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Megane 4 prox",
+      "years": "2015+",
+      "yearFrom": 2015,
+      "yearTo": 2015,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "prox",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Scenic",
+      "years": "2001-2004",
+      "yearFrom": 2001,
+      "yearTo": 2004,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "NE72",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Scenic",
+      "years": "2005-2009",
+      "yearFrom": 2005,
+      "yearTo": 2009,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Scenic 3 Phase2",
+      "years": "2012-2014",
+      "yearFrom": 2012,
+      "yearTo": 2014,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Scenic 3 Phase3",
+      "years": "2013-2015",
+      "yearFrom": 2013,
+      "yearTo": 2015,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Scenic 4 prox",
+      "years": "2015+",
+      "yearFrom": 2015,
+      "yearTo": 2015,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "prox",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Talisman prox",
+      "years": "2015+",
+      "yearFrom": 2015,
+      "yearTo": 2015,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "prox",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Trafic 3 Key Start",
+      "years": "2014-2020",
+      "yearFrom": 2014,
+      "yearTo": 2020,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Trafic Key Start",
+      "years": "2004-2014",
+      "yearFrom": 2004,
+      "yearTo": 2014,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "NE73",
+      "status": "verified"
+    },
+    {
+      "brand": "Renault",
+      "model": "Twingo 3 (Key)",
+      "years": "2014+",
+      "yearFrom": 2014,
+      "yearTo": 2014,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "VAT2",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Amarok 2H Key Start",
+      "years": "2010–2016",
+      "yearFrom": 2010,
+      "yearTo": 2016,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Amarok Key",
+      "years": "2017–2022",
+      "yearFrom": 2017,
+      "yearTo": 2022,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Beetle 5C Key Start",
+      "years": "2011–2016",
+      "yearFrom": 2011,
+      "yearTo": 2016,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Beetle 9C",
+      "years": "2000–2005",
+      "yearFrom": 2000,
+      "yearTo": 2005,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Beetle A4",
+      "years": "2005–2010",
+      "yearFrom": 2005,
+      "yearTo": 2010,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Bora 1J Key Start",
+      "years": "1999–2005",
+      "yearFrom": 1999,
+      "yearTo": 2005,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Bora 9M",
+      "years": "2008–2012",
+      "yearFrom": 2008,
+      "yearTo": 2012,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Caddy 2C",
+      "years": "2016–2020",
+      "yearFrom": 2016,
+      "yearTo": 2020,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Caddy 2K",
+      "years": "2005–2010",
+      "yearFrom": 2005,
+      "yearTo": 2010,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Caddy 2KN",
+      "years": "2010–2016",
+      "yearFrom": 2010,
+      "yearTo": 2016,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Crafter",
+      "years": "2006+",
+      "yearFrom": 2006,
+      "yearTo": 2006,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU64",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Crafter",
+      "years": "2018",
+      "yearFrom": 2018,
+      "yearTo": 2018,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU162T-9",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Crafter 35 Key Start",
+      "years": "2020–2025",
+      "yearFrom": 2020,
+      "yearTo": 2025,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU162T-9",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Eos",
+      "years": "2006+",
+      "yearFrom": 2006,
+      "yearTo": 2006,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Eos 1F",
+      "years": "2010–2016",
+      "yearFrom": 2010,
+      "yearTo": 2016,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Golf",
+      "years": "1995–1998",
+      "yearFrom": 1995,
+      "yearTo": 1998,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU49",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Golf 5K Key Start",
+      "years": "2009–2013",
+      "yearFrom": 2009,
+      "yearTo": 2013,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Golf MK4 1J",
+      "years": "1998–2004",
+      "yearFrom": 1998,
+      "yearTo": 2004,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Golf MK5",
+      "years": "2004–2009",
+      "yearFrom": 2004,
+      "yearTo": 2009,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Golf MK6 Key",
+      "years": "2008–2012",
+      "yearFrom": 2008,
+      "yearTo": 2012,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Golf MK7 Push Button",
+      "years": "2013–2018",
+      "yearFrom": 2013,
+      "yearTo": 2018,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "prox",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Golf MK7 5G Key Start",
+      "years": "2012–2019",
+      "yearFrom": 2012,
+      "yearTo": 2019,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Golf Plus Key Start",
+      "years": "2012–2016",
+      "yearFrom": 2012,
+      "yearTo": 2016,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Golf R MK7 Push Button",
+      "years": "2013–2017",
+      "yearFrom": 2013,
+      "yearTo": 2017,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "prox",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Jetta Key Start",
+      "years": "2009–2016",
+      "yearFrom": 2009,
+      "yearTo": 2016,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Jetta Key Start",
+      "years": "2017–2020",
+      "yearFrom": 2017,
+      "yearTo": 2020,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Jetta US",
+      "years": "2000–2005",
+      "yearFrom": 2000,
+      "yearTo": 2005,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Jetta US",
+      "years": "2005–2012",
+      "yearFrom": 2005,
+      "yearTo": 2012,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Passat",
+      "years": "1997–2005",
+      "yearFrom": 1997,
+      "yearTo": 2005,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Passat",
+      "years": "2003",
+      "yearFrom": 2003,
+      "yearTo": 2003,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Passat 3C B6 Slot",
+      "years": "2006–2010",
+      "yearFrom": 2006,
+      "yearTo": 2010,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Passat 3C B7 Slot",
+      "years": "2010–2015",
+      "yearFrom": 2010,
+      "yearTo": 2015,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Passat B8",
+      "years": "10/2015–2021",
+      "yearFrom": 2015,
+      "yearTo": 2021,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU162T-8",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Passat CC B6 Slot",
+      "years": "2006–2010",
+      "yearFrom": 2006,
+      "yearTo": 2010,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Passat CC B6 Slot",
+      "years": "2010–2015",
+      "yearFrom": 2010,
+      "yearTo": 2015,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "smart",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Polo 2015",
+      "years": "2015",
+      "yearFrom": 2015,
+      "yearTo": 2015,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Polo 6R",
+      "years": "2014–2018",
+      "yearFrom": 2014,
+      "yearTo": 2018,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU162T-8",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Polo 6R1 Key Start",
+      "years": "05/2010–04/2014",
+      "yearFrom": 2010,
+      "yearTo": 2014,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Polo 9N3",
+      "years": "2006–2010",
+      "yearFrom": 2006,
+      "yearTo": 2010,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Polo AW Key Start",
+      "years": "2012–2019",
+      "yearFrom": 2012,
+      "yearTo": 2019,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Polo AW MQB48",
+      "years": "2017+",
+      "yearFrom": 2017,
+      "yearTo": 2017,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU162T-8",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Polo AW MQB5c",
+      "years": "06/2018–2026",
+      "yearFrom": 2018,
+      "yearTo": 2026,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU162T-8",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "T-Cross Key Start",
+      "years": "2017–2022",
+      "yearFrom": 2017,
+      "yearTo": 2022,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU162T-8",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "T-Roc",
+      "years": "2017–2021",
+      "yearFrom": 2017,
+      "yearTo": 2021,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU162T-10",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "T5 Multivan",
+      "years": "2012–2016",
+      "yearFrom": 2012,
+      "yearTo": 2016,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU162T-8",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Tiguan",
+      "years": "2018–2020",
+      "yearFrom": 2018,
+      "yearTo": 2020,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU162T-8",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Tiguan",
+      "years": "2021",
+      "yearFrom": 2021,
+      "yearTo": 2021,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU162T-9",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Tiguan",
+      "years": "2009–2015",
+      "yearFrom": 2009,
+      "yearTo": 2015,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Tiguan Push Button",
+      "years": "2020–2024",
+      "yearFrom": 2020,
+      "yearTo": 2024,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "prox",
+      "lishi": "HU162T-10",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Tiguan 5N Key",
+      "years": "2008–2016",
+      "yearFrom": 2008,
+      "yearTo": 2016,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Tiguan 5N Key Start",
+      "years": "2010–2015",
+      "yearFrom": 2010,
+      "yearTo": 2015,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Touareg 7L",
+      "years": "2003–2008",
+      "yearFrom": 2003,
+      "yearTo": 2008,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Touareg 7L",
+      "years": "2008–2010",
+      "yearFrom": 2008,
+      "yearTo": 2010,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Touareg Key Start",
+      "years": "2018–2025",
+      "yearFrom": 2018,
+      "yearTo": 2025,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "key",
+      "lishi": "HU162T-10",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Transporter T4",
+      "years": "1997–2004",
+      "yearFrom": 1997,
+      "yearTo": 2004,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Transporter T5",
+      "years": "2004–2009",
+      "yearFrom": 2004,
+      "yearTo": 2009,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Transporter T5 (7E–7H)",
+      "years": "2010–2016",
+      "yearFrom": 2010,
+      "yearTo": 2016,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Transporter T6",
+      "years": "2016–2019",
+      "yearFrom": 2016,
+      "yearTo": 2019,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Transporter T6 facelift",
+      "years": "2019+",
+      "yearFrom": 2019,
+      "yearTo": 2019,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU162T-8",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Transporter T7 Push Button",
+      "years": "2025–2027",
+      "yearFrom": 2025,
+      "yearTo": 2027,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "prox",
+      "lishi": "HU198T",
+      "status": "verified"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Up",
+      "years": "2011–2016",
+      "yearFrom": 2011,
+      "yearTo": 2016,
+      "markets": [
+        "UNSPECIFIED"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU66",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Aurion GSV50 Key",
+      "years": "04/2012-03/2015",
+      "yearFrom": 2012,
+      "yearTo": 2015,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Aurion GSV50R Prox",
+      "years": "10/2011-09/2017",
+      "yearFrom": 2011,
+      "yearTo": 2017,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY40",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Aurion Key Start ACV40/GSV40",
+      "years": "10/2006-2010",
+      "yearFrom": 2006,
+      "yearTo": 2010,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Avalon GSX40L Prox",
+      "years": "10/2012-09/2015",
+      "yearFrom": 2012,
+      "yearTo": 2015,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY40",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Avalon MCX10",
+      "years": "04/2000-06/2005",
+      "yearFrom": 2000,
+      "yearTo": 2005,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Avalon MCX10",
+      "years": "2001-2005",
+      "yearFrom": 2001,
+      "yearTo": 2005,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Tundra Key",
+      "years": "2007-2017",
+      "yearFrom": 2007,
+      "yearTo": 2017,
+      "markets": [
+        "US"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Tundra Key",
+      "years": "2017-2019",
+      "yearFrom": 2017,
+      "yearTo": 2019,
+      "markets": [
+        "US"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Tundra Prox Push Button",
+      "years": "2024",
+      "yearFrom": 2024,
+      "yearTo": 2024,
+      "markets": [
+        "US"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Venza GGV",
+      "years": "2008-2017",
+      "yearFrom": 2008,
+      "yearTo": 2017,
+      "markets": [
+        "US"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Yaris Key",
+      "years": "2008-2011",
+      "yearFrom": 2008,
+      "yearTo": 2011,
+      "markets": [
+        "US"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Yaris Key",
+      "years": "2012-2014",
+      "yearFrom": 2012,
+      "yearTo": 2014,
+      "markets": [
+        "US"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Hilux KDN165",
+      "years": "07/2002-2005",
+      "yearFrom": 2002,
+      "yearTo": 2005,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY38R",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Kluger GSU40R Prox",
+      "years": "2010-2014",
+      "yearFrom": 2010,
+      "yearTo": 2014,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Kluger GSU45 Prox",
+      "years": "2007-2010",
+      "yearFrom": 2007,
+      "yearTo": 2010,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Kluger GSU4x Key Start",
+      "years": "07/2010-11/2013",
+      "yearFrom": 2010,
+      "yearTo": 2013,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Kluger GSU50/55 Prox",
+      "years": "2013-2020",
+      "yearFrom": 2013,
+      "yearTo": 2020,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Kluger GSU50R Key Start",
+      "years": "12/2013-10/2016",
+      "yearFrom": 2013,
+      "yearTo": 2016,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Estima R50 Prox",
+      "years": "01/2006-09/2019",
+      "yearFrom": 2006,
+      "yearTo": 2019,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "FJ Cruiser GSJ15R",
+      "years": "2011-2016",
+      "yearFrom": 2011,
+      "yearTo": 2016,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Fortuna GUN156 Prox",
+      "years": "2015-2024",
+      "yearFrom": 2015,
+      "yearTo": 2024,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "HiAce",
+      "years": "1989-2004",
+      "yearFrom": 1989,
+      "yearTo": 2004,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY38R",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "HiAce GDH3 Key Start",
+      "years": "2019-2024",
+      "yearFrom": 2019,
+      "yearTo": 2024,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "HiAce H2",
+      "years": "03/2005-08/2010",
+      "yearFrom": 2005,
+      "yearTo": 2010,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Camry Hybrid GSV70 Prox",
+      "years": "12/2017+",
+      "yearFrom": 2017,
+      "yearTo": 2017,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY40",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Camry MCV36",
+      "years": "05/2005-07/2006",
+      "yearFrom": 2005,
+      "yearTo": 2006,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Camry SXV20/MCV20",
+      "years": "08/1997-08/2002",
+      "yearFrom": 1997,
+      "yearTo": 2002,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Celica ZZT231",
+      "years": "11/1999-2006",
+      "yearFrom": 1999,
+      "yearTo": 2006,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla",
+      "years": "1995-1997",
+      "yearFrom": 1995,
+      "yearTo": 1997,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla AE101, AE112",
+      "years": "07/1996-2002",
+      "yearFrom": 1996,
+      "yearTo": 2002,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "RAV4 SXA10 SXA11",
+      "years": "1998-04/2000",
+      "yearFrom": 1998,
+      "yearTo": 2000,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "RAV4 ACA22/23",
+      "years": "07/2003-10/2005",
+      "yearFrom": 2003,
+      "yearTo": 2005,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "RAV4 ACA33",
+      "years": "11/2005-12/2009",
+      "yearFrom": 2005,
+      "yearTo": 2009,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "RAV4 Key Start",
+      "years": "2019-2021",
+      "yearFrom": 2019,
+      "yearTo": 2021,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Rukus AZE151 Prox",
+      "years": "2010-2015",
+      "yearFrom": 2010,
+      "yearTo": 2015,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Sienta Prox Push Button",
+      "years": "2015-2020",
+      "yearFrom": 2015,
+      "yearTo": 2020,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY40",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Prius NHW11 Key Start",
+      "years": "2001-2003",
+      "yearFrom": 2001,
+      "yearTo": 2003,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Prius NHW20 Prox",
+      "years": "2003-2009",
+      "yearFrom": 2003,
+      "yearTo": 2009,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Prius NHW20 Slot",
+      "years": "2003-2009",
+      "yearFrom": 2003,
+      "yearTo": 2009,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "smart",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Prius ZVW30, NHP10 Prox",
+      "years": "2009-2015",
+      "yearFrom": 2009,
+      "yearTo": 2015,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Prius ZVW40 Prox",
+      "years": "2012-2015",
+      "yearFrom": 2012,
+      "yearTo": 2015,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Prius ZVW40 Prox",
+      "years": "2016-2021",
+      "yearFrom": 2016,
+      "yearTo": 2021,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Esquire R80 Prox Push Button",
+      "years": "2014-2025",
+      "yearFrom": 2014,
+      "yearTo": 2025,
+      "markets": [
+        "AU",
+        "ASIA"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla Cross MXG Prox Push Button",
+      "years": "2022-2025",
+      "yearFrom": 2022,
+      "yearTo": 2025,
+      "markets": [
+        "AU",
+        "US"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla E211 Prox",
+      "years": "2019-2022",
+      "yearFrom": 2019,
+      "yearTo": 2022,
+      "markets": [
+        "AU",
+        "US"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla MZEA12 Prox Push Button",
+      "years": "2022-2025",
+      "yearFrom": 2022,
+      "yearTo": 2025,
+      "markets": [
+        "AU",
+        "US"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Camry ASV50R Key Start",
+      "years": "2011-2015",
+      "yearFrom": 2011,
+      "yearTo": 2015,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Hilux GUN126R 08/2022-07/2023 Key Start",
+      "years": "2022-2023",
+      "yearFrom": 2022,
+      "yearTo": 2023,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Landcruiser FZJ80 & HZJ80 Key Start",
+      "years": "08/1992-12/1997",
+      "yearFrom": 1992,
+      "yearTo": 1997,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY40",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Landcruiser HDJ100R",
+      "years": "2002-2007",
+      "yearFrom": 2002,
+      "yearTo": 2007,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Landcruiser HDJ79",
+      "years": "08/2001-12/2006",
+      "yearFrom": 2001,
+      "yearTo": 2006,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY38R",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Landcruiser HZJ105R",
+      "years": "05/2005-07/2007",
+      "yearFrom": 2005,
+      "yearTo": 2007,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY40",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Landcruiser HZJ105R",
+      "years": "1997-2002",
+      "yearFrom": 1997,
+      "yearTo": 2002,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY40",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Landcruiser HZJ79 HZJ79R",
+      "years": "10/1999-10/2007",
+      "yearFrom": 1999,
+      "yearTo": 2007,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY38R",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla ZRE182 Key Start",
+      "years": "2012-05/2018",
+      "yearFrom": 2012,
+      "yearTo": 2018,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla ZZE",
+      "years": "12/2001-09/2005",
+      "yearFrom": 2001,
+      "yearTo": 2005,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Echo NCP10L/R 1NZ-FE",
+      "years": "1999-2002",
+      "yearFrom": 1999,
+      "yearTo": 2002,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Echo NCP10L/R 2NZ-FE",
+      "years": "1999-2002",
+      "yearFrom": 1999,
+      "yearTo": 2002,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Echo NCP11L/R",
+      "years": "2002-2006",
+      "yearFrom": 2002,
+      "yearTo": 2006,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Estima ACR30",
+      "years": "2000-2003",
+      "yearFrom": 2000,
+      "yearTo": 2003,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "4Runner N280",
+      "years": "2009+",
+      "yearFrom": 2009,
+      "yearTo": 2009,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "86 ZN6G Key Start",
+      "years": "04/2012-2022",
+      "yearFrom": 2012,
+      "yearTo": 2022,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "86 ZNG Prox",
+      "years": "2012-2022",
+      "yearFrom": 2012,
+      "yearTo": 2022,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Alphard GGH30 Prox",
+      "years": "2020-2024",
+      "yearFrom": 2020,
+      "yearTo": 2024,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Aurion GSV40R",
+      "years": "09/2009-03/2012",
+      "yearFrom": 2009,
+      "yearTo": 2012,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Aurion GSV40R Prox",
+      "years": "2006-2009",
+      "yearFrom": 2006,
+      "yearTo": 2009,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY40",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Landcruiser VDJ79",
+      "years": "10/2007-2009",
+      "yearFrom": 2007,
+      "yearTo": 2009,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY38R",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Landcruiser VDJ79",
+      "years": "2016-2021",
+      "yearFrom": 2016,
+      "yearTo": 2021,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Landcruiser VX, GX URJ202, VDJ200",
+      "years": "05/2008-2014",
+      "yearFrom": 2008,
+      "yearTo": 2014,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Lexcen T3 Sdn",
+      "years": "07/1993-04/1995",
+      "yearFrom": 1993,
+      "yearTo": 1995,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Lexcen T4,T5 Sdn",
+      "years": "05/1995-08/1997",
+      "yearFrom": 1995,
+      "yearTo": 1997,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "HU43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "MR2 ZZW30",
+      "years": "2000-2007",
+      "yearFrom": 2000,
+      "yearTo": 2007,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Landcruiser KZJ95",
+      "years": "01/2000-08/2002",
+      "yearFrom": 2000,
+      "yearTo": 2002,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Landcruiser UZJ100 2UZ-FE",
+      "years": "1997-08/2002",
+      "yearFrom": 1997,
+      "yearTo": 2002,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Landcruiser UZJ100R",
+      "years": "08/2002-04/2005",
+      "yearFrom": 2002,
+      "yearTo": 2005,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Landcruiser VDJ200 Prox",
+      "years": "05/2007-2009",
+      "yearFrom": 2007,
+      "yearTo": 2009,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Landcruiser VDJ200 Prox",
+      "years": "05/2015-04/2020",
+      "yearFrom": 2015,
+      "yearTo": 2020,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Landcruiser VDJ76R,78R,79R",
+      "years": "01/2007-07/2016",
+      "yearFrom": 2007,
+      "yearTo": 2016,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Camry Prox Push Button",
+      "years": "2018-2024",
+      "yearFrom": 2018,
+      "yearTo": 2024,
+      "markets": [
+        "US"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY40",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla",
+      "years": "2005-2007",
+      "yearFrom": 2005,
+      "yearTo": 2007,
+      "markets": [
+        "US"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla Key",
+      "years": "2014-2019",
+      "yearFrom": 2014,
+      "yearTo": 2019,
+      "markets": [
+        "US"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla Prox",
+      "years": "2014-2019",
+      "yearFrom": 2014,
+      "yearTo": 2019,
+      "markets": [
+        "US"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "FJ Cruiser Key",
+      "years": "2013-2015",
+      "yearFrom": 2013,
+      "yearTo": 2015,
+      "markets": [
+        "US"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Highlander Hybrid Prox",
+      "years": "2020-2021",
+      "yearFrom": 2020,
+      "yearTo": 2021,
+      "markets": [
+        "US"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Prado GDJ150 Prox",
+      "years": "08/2017-2025",
+      "yearFrom": 2017,
+      "yearTo": 2025,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Prado GRJ120",
+      "years": "2002-2010",
+      "yearFrom": 2002,
+      "yearTo": 2010,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Prado KDJ120",
+      "years": "2006-2009",
+      "yearFrom": 2006,
+      "yearTo": 2009,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Prado KDJ150, GRJ150 Prox",
+      "years": "08/2009-05/2015",
+      "yearFrom": 2009,
+      "yearTo": 2015,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Prado VZJ95",
+      "years": "11/1999-10/2002",
+      "yearFrom": 1999,
+      "yearTo": 2002,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Prius C NHP10 Prox",
+      "years": "2012-2020",
+      "yearFrom": 2012,
+      "yearTo": 2020,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "HiAce H2 Key Start",
+      "years": "01/2014-2019",
+      "yearFrom": 2014,
+      "yearTo": 2019,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "HiAce H2 Key Start",
+      "years": "08/2010-12/2013",
+      "yearFrom": 2010,
+      "yearTo": 2013,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Hilux",
+      "years": "02/2005-2009",
+      "yearFrom": 2005,
+      "yearTo": 2009,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Hilux",
+      "years": "08/2009-05/2015",
+      "yearFrom": 2009,
+      "yearTo": 2015,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Hilux GUN126 Key",
+      "years": "05/2015-04/2020",
+      "yearFrom": 2015,
+      "yearTo": 2020,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Hilux GUN126 Prox",
+      "years": "2015-2022",
+      "yearFrom": 2015,
+      "yearTo": 2022,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Yaris NCP93R",
+      "years": "08/2008-06/2016",
+      "yearFrom": 2008,
+      "yearTo": 2016,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "bZ4X Prox",
+      "years": "2023-2024",
+      "yearFrom": 2023,
+      "yearTo": 2024,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Yaris Key Start MXPA10",
+      "years": "2020-2026",
+      "yearFrom": 2020,
+      "yearTo": 2026,
+      "markets": [
+        "AU",
+        "EU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "C-HR Key",
+      "years": "2016-2019",
+      "yearFrom": 2016,
+      "yearTo": 2019,
+      "markets": [
+        "AU",
+        "US"
+      ],
+      "ignition": "key",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "C-HR Prox",
+      "years": "2016-2023",
+      "yearFrom": 2016,
+      "yearTo": 2023,
+      "markets": [
+        "AU",
+        "US"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "C-HR Prox",
+      "years": "2022-2024",
+      "yearFrom": 2022,
+      "yearTo": 2024,
+      "markets": [
+        "AU",
+        "US"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Brevis",
+      "years": "05/2001-12/2007",
+      "yearFrom": 2001,
+      "yearTo": 2007,
+      "markets": [
+        "JP"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Prius Hybrid Prox Push Button",
+      "years": "2015-2022",
+      "yearFrom": 2015,
+      "yearTo": 2022,
+      "markets": [
+        "JP"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY40",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Vitz Prox",
+      "years": "2012-2020",
+      "yearFrom": 2012,
+      "yearTo": 2020,
+      "markets": [
+        "JP"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "4Runner",
+      "years": "2003-2010",
+      "yearFrom": 2003,
+      "yearTo": 2010,
+      "markets": [
+        "US"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "4Runner Key",
+      "years": "2010-2018",
+      "yearFrom": 2010,
+      "yearTo": 2018,
+      "markets": [
+        "US"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Camry Key Start",
+      "years": "2018-2024",
+      "yearFrom": 2018,
+      "yearTo": 2024,
+      "markets": [
+        "US"
+      ],
+      "ignition": "key",
+      "lishi": "TOY40",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Yaris Key",
+      "years": "2015-2017",
+      "yearFrom": 2015,
+      "yearTo": 2017,
+      "markets": [
+        "US"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "bZ4X Prox",
+      "years": "2023-2026",
+      "yearFrom": 2023,
+      "yearTo": 2026,
+      "markets": [
+        "US"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "T100 Pickup Key Start",
+      "years": "1990-1990",
+      "yearFrom": 1990,
+      "yearTo": 1990,
+      "markets": [
+        "US"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Hilux GUN227R Prox Push Button",
+      "years": "2025-2026",
+      "yearFrom": 2025,
+      "yearTo": 2026,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Auris Key Start",
+      "years": "2012-2018",
+      "yearFrom": 2012,
+      "yearTo": 2018,
+      "markets": [
+        "EU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY51",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Auris NDE150R",
+      "years": "12/2009-09/2012",
+      "yearFrom": 2009,
+      "yearTo": 2012,
+      "markets": [
+        "EU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY47",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Avensis AZT220, CDT220, CT220, ST220, ZZT2…",
+      "years": "Не вказано",
+      "yearFrom": null,
+      "yearTo": null,
+      "markets": [
+        "EU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY47",
+      "status": "needs_review",
+      "note": "У наданому джерелі не вказано період випуску; код потребує ручної перевірки."
+    },
+    {
+      "brand": "Toyota",
+      "model": "Avensis AZT250",
+      "years": "01/2003-10/2008",
+      "yearFrom": 2003,
+      "yearTo": 2008,
+      "markets": [
+        "EU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY47",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Aygo Key Start",
+      "years": "2014-2021",
+      "yearFrom": 2014,
+      "yearTo": 2021,
+      "markets": [
+        "EU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY49",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Camry ACV40/GSV40 Key Start",
+      "years": "08/2006-06/2009",
+      "yearFrom": 2006,
+      "yearTo": 2009,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Camry ACV40/GSV40 Prox",
+      "years": "2006-2009",
+      "yearFrom": 2006,
+      "yearTo": 2009,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Camry ASV50R, AVV50R Prox",
+      "years": "04/2015-05/2017",
+      "yearFrom": 2015,
+      "yearTo": 2017,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY40",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Camry ASV70 Prox",
+      "years": "2017-2023",
+      "yearFrom": 2017,
+      "yearTo": 2023,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Camry AXVH71 Prox",
+      "years": "2018-2024",
+      "yearFrom": 2018,
+      "yearTo": 2024,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Camry Hybrid AHV40 Prox",
+      "years": "07/2009-02/2012",
+      "yearFrom": 2009,
+      "yearTo": 2012,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Highlander Hybrid Prox",
+      "years": "2022-2023",
+      "yearFrom": 2022,
+      "yearTo": 2023,
+      "markets": [
+        "EU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Yaris KSP210 Prox Push Button",
+      "years": "2020-2026",
+      "yearFrom": 2020,
+      "yearTo": 2026,
+      "markets": [
+        "EU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY49",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Yaris SCP#, NLP10",
+      "years": "01/2001-11/2005",
+      "yearFrom": 2001,
+      "yearTo": 2005,
+      "markets": [
+        "EU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY47",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Yaris SP90 Key Start",
+      "years": "2005-2009",
+      "yearFrom": 2005,
+      "yearTo": 2009,
+      "markets": [
+        "EU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY47",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Sienta Prox Push Button",
+      "years": "2015-2020",
+      "yearFrom": 2015,
+      "yearTo": 2020,
+      "markets": [
+        "GLOBAL"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY40",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Alphard",
+      "years": "05/2002-05/2008",
+      "yearFrom": 2002,
+      "yearTo": 2008,
+      "markets": [
+        "JP"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Matrix",
+      "years": "2005-2007",
+      "yearFrom": 2005,
+      "yearTo": 2007,
+      "markets": [
+        "US"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Matrix",
+      "years": "2007-2010",
+      "yearFrom": 2007,
+      "yearTo": 2010,
+      "markets": [
+        "US"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Matrix",
+      "years": "2010-2013",
+      "yearFrom": 2010,
+      "yearTo": 2013,
+      "markets": [
+        "US"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Matrix",
+      "years": "2013-2014",
+      "yearFrom": 2013,
+      "yearTo": 2014,
+      "markets": [
+        "US"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "RAV4 Prox",
+      "years": "2019-2023",
+      "yearFrom": 2019,
+      "yearTo": 2023,
+      "markets": [
+        "US"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "RAV4",
+      "years": "2004-2006",
+      "yearFrom": 2004,
+      "yearTo": 2006,
+      "markets": [
+        "US"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Tarago ASR50,GSR50",
+      "years": "12/2008-04/2012",
+      "yearFrom": 2008,
+      "yearTo": 2012,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Tundra Key",
+      "years": "2009-2016",
+      "yearFrom": 2009,
+      "yearTo": 2016,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Yaris Cross Prox",
+      "years": "2022-2023",
+      "yearFrom": 2022,
+      "yearTo": 2023,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Yaris NCP130R/131R",
+      "years": "07/2014-2017",
+      "yearFrom": 2014,
+      "yearTo": 2017,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Yaris NCP130R/131R",
+      "years": "12/2011-06/2014",
+      "yearFrom": 2011,
+      "yearTo": 2014,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Yaris NCP90R/93L",
+      "years": "2005-11/2011",
+      "yearFrom": 2005,
+      "yearTo": 2011,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Carina",
+      "years": "1992-1998",
+      "yearFrom": 1992,
+      "yearTo": 1998,
+      "markets": [
+        "EU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY47",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Celica Key Start",
+      "years": "08/1995-04/1999",
+      "yearFrom": 1995,
+      "yearTo": 1999,
+      "markets": [
+        "EU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla #120 Sdn/Wgn",
+      "years": "01/2002-02/2007",
+      "yearFrom": 2002,
+      "yearTo": 2007,
+      "markets": [
+        "EU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY47",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla #11 Hatch",
+      "years": "11/1999-11/2001",
+      "yearFrom": 1999,
+      "yearTo": 2001,
+      "markets": [
+        "EU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY47",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla Verso Prox-Slot",
+      "years": "2004-2009",
+      "yearFrom": 2004,
+      "yearTo": 2009,
+      "markets": [
+        "EU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla ZRE210R/ZRE211L Key Start",
+      "years": "2019-2022",
+      "yearFrom": 2019,
+      "yearTo": 2022,
+      "markets": [
+        "EU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Spacia SR40",
+      "years": "1998-2001",
+      "yearFrom": 1998,
+      "yearTo": 2001,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Tarago 50 ser Prox",
+      "years": "07/2012-2019",
+      "yearFrom": 2012,
+      "yearTo": 2019,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Tarago ACR10/11",
+      "years": "1997-04/2000",
+      "yearFrom": 1997,
+      "yearTo": 2000,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY30",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Tarago ACR30",
+      "years": "04/2000-04/2003",
+      "yearFrom": 2000,
+      "yearTo": 2003,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Tarago ACR30",
+      "years": "04/2003-01/2006",
+      "yearFrom": 2003,
+      "yearTo": 2006,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Tarago ACR50,GSR50",
+      "years": "2006-02/2009",
+      "yearFrom": 2006,
+      "yearTo": 2009,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla E186R Prox",
+      "years": "2016-2018",
+      "yearFrom": 2016,
+      "yearTo": 2018,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla ZRE152 Key Start",
+      "years": "2007-09/2009",
+      "yearFrom": 2007,
+      "yearTo": 2009,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla ZRE153 Prox",
+      "years": "04/2010-10/2013",
+      "yearFrom": 2010,
+      "yearTo": 2013,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla ZRE162",
+      "years": "10/2009-2012",
+      "yearFrom": 2009,
+      "yearTo": 2012,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla ZRE172 (MRO53) Key",
+      "years": "2014-2019",
+      "yearFrom": 2014,
+      "yearTo": 2019,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla ZRE172 (MRO53) Prox",
+      "years": "12/2013-09/2016",
+      "yearFrom": 2013,
+      "yearTo": 2016,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "RAV4",
+      "years": "2006-2010",
+      "yearFrom": 2006,
+      "yearTo": 2010,
+      "markets": [
+        "US"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "RAV4 Key",
+      "years": "2010-2012",
+      "yearFrom": 2010,
+      "yearTo": 2012,
+      "markets": [
+        "US"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "RAV4 Key",
+      "years": "2013-2018",
+      "yearFrom": 2013,
+      "yearTo": 2018,
+      "markets": [
+        "US"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "RAV4 Key",
+      "years": "2019-2024",
+      "yearFrom": 2019,
+      "yearTo": 2024,
+      "markets": [
+        "US"
+      ],
+      "ignition": "key",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "RAV4 Prox",
+      "years": "2013-2018",
+      "yearFrom": 2013,
+      "yearTo": 2018,
+      "markets": [
+        "US"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY40",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Tacoma Key Start",
+      "years": "02/2011-2015",
+      "yearFrom": 2011,
+      "yearTo": 2015,
+      "markets": [
+        "US"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Prius ZVW50 Prox",
+      "years": "2016-2022",
+      "yearFrom": 2016,
+      "yearTo": 2022,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "RAV4",
+      "years": "12/2012-09/2015",
+      "yearFrom": 2012,
+      "yearTo": 2015,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "RAV4 ACA38R",
+      "years": "2010-2012",
+      "yearFrom": 2010,
+      "yearTo": 2012,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "RAV4 ALA40R Key Start",
+      "years": "2012-2018",
+      "yearFrom": 2012,
+      "yearTo": 2018,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "RAV4 ALA40R Prox",
+      "years": "2012-2018",
+      "yearFrom": 2012,
+      "yearTo": 2018,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "RAV4 AXAH52, AXAL52 Prox",
+      "years": "2019-2024",
+      "yearFrom": 2019,
+      "yearTo": 2024,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "prox",
+      "lishi": "TOY48-e",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Avensis ACM21",
+      "years": "2003-2010",
+      "yearFrom": 2003,
+      "yearTo": 2010,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Camry ASV70R Key Start",
+      "years": "12/2017-2024",
+      "yearFrom": 2017,
+      "yearTo": 2024,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "key",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Camry",
+      "years": "1994-1998",
+      "yearFrom": 1994,
+      "yearTo": 1998,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Camry",
+      "years": "2012-2014",
+      "yearFrom": 2012,
+      "yearTo": 2014,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Camry",
+      "years": "2014+",
+      "yearFrom": 2014,
+      "yearTo": 2014,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY48",
+      "status": "verified"
+    },
+    {
+      "brand": "Toyota",
+      "model": "Camry ACV40/GSV40",
+      "years": "07/2009-11/2011",
+      "yearFrom": 2009,
+      "yearTo": 2011,
+      "markets": [
+        "AU"
+      ],
+      "ignition": "unknown",
+      "lishi": "TOY43AT",
+      "status": "verified"
+    }
+  ]
+};
+

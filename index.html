@@ -1,132 +1,64 @@
 <!doctype html>
 <html lang="uk">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
-<meta name="theme-color" content="#0b3554">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Lishi Finder">
-<link rel="apple-touch-icon" href="icon.svg">
-<link rel="manifest" href="manifest.webmanifest">
-<title>Lishi Finder</title>
-<style>
-:root{--nav:#0b3554;--nav2:#155b7d;--bg:#f3f6f8;--card:#fff;--txt:#17212b;--muted:#71808d;--line:#e0e6eb}
-*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
-body{margin:0;background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",sans-serif}
-header{padding:calc(env(safe-area-inset-top) + 18px) 18px 18px;background:linear-gradient(145deg,var(--nav),var(--nav2));color:#fff;position:sticky;top:0;z-index:20}
-.brandline{display:flex;align-items:center;gap:10px}.logo{width:40px;height:40px;border-radius:12px;background:#fff2;display:grid;place-items:center;font-size:24px}
-h1{font-size:24px;margin:0;font-weight:800}header p{font-size:12px;margin:3px 0 0;opacity:.82}
-main{max-width:760px;margin:auto;padding:12px 14px calc(82px + env(safe-area-inset-bottom))}
-.search{background:#fff;border:1px solid var(--line);border-radius:16px;padding:4px 12px;display:flex;align-items:center;box-shadow:0 3px 14px #0000000b}
-.search span{font-size:20px}.search input{border:0;outline:0;width:100%;font-size:17px;padding:13px 9px;background:transparent}
-.modes{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:11px 0}
-button{font:inherit}.mode{border:0;border-radius:13px;padding:11px 6px;font-weight:800;background:#e7edf1;color:#334155}.mode.active{background:var(--nav);color:#fff}
-.filters{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}.filters select{min-width:145px;border:1px solid var(--line);border-radius:12px;padding:10px;background:#fff;font-size:14px}
-.stats{font-size:12px;color:var(--muted);margin:10px 3px}
-.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:12px;margin:8px 0;box-shadow:0 2px 10px #00000009}
-.cardtop{display:flex;justify-content:space-between;gap:10px}.info{min-width:0;flex:1}.brand{font-size:11px;text-transform:uppercase;color:var(--muted);font-weight:800}
-.market{display:inline-block;font-size:10px;color:#536878;background:#edf2f5;border-radius:7px;padding:3px 6px;margin-top:4px}
-.model{font-size:17px;font-weight:800;margin-top:3px}.years{font-size:13px;color:var(--muted);margin-top:5px}
-.badge{background:#e2f1e6;color:#23683b;padding:8px 11px;border-radius:10px;font-weight:900;white-space:nowrap;height:max-content}
-
-
-
-
-.empty{padding:42px 12px;text-align:center;color:var(--muted)}.resetBtn{width:100%;border:0;border-radius:12px;padding:11px;margin:8px 0;background:#0b3554;color:#fff;font-weight:800}
-.clear{border:0;background:none;color:#fff;font-weight:700}
-.install{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px;margin:11px 0;font-size:13px;line-height:1.4}
-.install b{color:var(--nav)}
-.notice{background:#fff8df;border:1px solid #ead9a1;color:#5c4b12;border-radius:12px;padding:9px 11px;font-size:12px;margin:9px 0}
-footer{position:fixed;left:0;right:0;bottom:0;padding:9px 14px calc(9px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--line);z-index:30;text-align:center;color:var(--muted);font-size:11px}
-@media(min-width:600px){}
-
-.brandLegend{display:flex;flex-wrap:wrap;gap:7px;margin:8px 0 12px}
-.brandLegendItem{display:flex;align-items:center;gap:6px;background:#f3f6f8;border:1px solid #d9e0e5;border-radius:999px;padding:5px 9px 5px 6px;font-size:12px;font-weight:700;color:#243746}
-.brandLogo{width:24px;height:24px;display:grid;place-items:center;border-radius:50%;flex:0 0 24px;background:#fff;border:1px solid #d5dce1;overflow:hidden}
-.brandLogo svg{width:19px;height:19px;display:block}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b3554">
+  <meta name="description" content="Довідковий каталог сумісності автомобілів та Lishi.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Lishi Finder">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <title>Lishi Finder</title>
 </head>
 <body>
-<header>
- <div class="brandline"><div class="logo">🔑</div><div><h1>Lishi Finder</h1><p>Автомобіль → відмичка • Lishi → автомобілі</p></div></div>
-</header>
-<main>
- <div class="install">📱 <b>Для iPhone:</b> Safari → «Поділитися» → «На початковий екран».</div>
- <div class="search"><span>🔎</span><input id="q" placeholder="Toyota RAV4, Volkswagen Golf, TOY43AT…" autocomplete="off"><button class="clear" id="clr">×</button></div>
- <div class="modes"><button class="mode active" data-mode="auto">🚗 Авто → Lishi</button><button class="mode" data-mode="lishi">🔧 Lishi → Авто</button></div>
- <div class="filters"><select id="brand"><option value="">Усі марки</option></select><div id="brandLegend" class="brandLegend"></div><select id="tool"><option value="">Усі Lishi</option></select></div>
- <div class="notice">Каталог сформовано тільки з наданих матеріалів. Фотографії та профілі не використовуються.</div><button id="resetApp" class="resetBtn">🔄 Видалити стару версію та завантажити оновлення</button>
- <div class="stats" id="stats"></div><div id="results"></div>
-</main>
-<footer>Lishi Finder • офлайн-каталог</footer>
-<script src="data.js?v=20260814-3"></script>
-<script>
-const D=(window.LISHI_DATA&&window.LISHI_DATA.cars)||[];
-const q=document.getElementById('q'),brand=document.getElementById('brand'),tool=document.getElementById('tool'),res=document.getElementById('results'),stats=document.getElementById('stats');
-let mode='auto';
-const norm=x=>String(x??'').toLowerCase().trim();
-[...new Set(D.map(x=>x.brand).filter(Boolean))].sort().forEach(x=>brand.add(new Option(x,x)));
-[...new Set(D.map(x=>x.lishi).filter(Boolean))].sort().forEach(x=>tool.add(new Option(x,x)));
-
-function esc(x){return String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
-
-function esc(x){return String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
-
-function brandLogo(brand){
- const b=String(brand||''), s='fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"';
- if(b==='Audi') return `<svg viewBox="0 0 24 24" ${s}><ellipse cx="6" cy="12" rx="4" ry="6"/><ellipse cx="10" cy="12" rx="4" ry="6"/><ellipse cx="14" cy="12" rx="4" ry="6"/><ellipse cx="18" cy="12" rx="4" ry="6"/></svg>`;
- if(b==='BMW') return `<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="#fff" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 9 9h-9z" fill="currentColor"/><path d="M12 21a9 9 0 0 1-9-9h9z" fill="currentColor"/><path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="1"/></svg>`;
- if(b==='Citroen') return `<svg viewBox="0 0 24 24" ${s}><path d="M4 9l8-4 8 4"/><path d="M4 15l8-4 8 4"/></svg>`;
- if(b==='Dacia') return `<svg viewBox="0 0 24 24" ${s}><path d="M7 4h10l3 4v8l-3 4H7l-3-4V8z"/><path d="M8 8h8v8H8z"/></svg>`;
- if(b==='Mercedes-Benz') return `<svg viewBox="0 0 24 24" ${s}><circle cx="12" cy="12" r="9"/><path d="M12 5v14M5.5 15.5L18.5 8M5.5 8l13 7.5"/></svg>`;
- if(b==='Renault') return `<svg viewBox="0 0 24 24" ${s}><path d="M12 3l8 8-8 10-8-10z"/><path d="M9 8h6v8H9z"/></svg>`;
- if(b==='Toyota') return `<svg viewBox="0 0 24 24" ${s}><ellipse cx="12" cy="12" rx="10" ry="7"/><ellipse cx="12" cy="12" rx="4" ry="7"/><path d="M3 12h18"/></svg>`;
- if(b==='Volkswagen') return `<svg viewBox="0 0 24 24" ${s}><circle cx="12" cy="12" r="9"/><path d="M7 7l3 10 2-5 2 5 3-10M9 5h6"/></svg>`;
- return `<svg viewBox="0 0 24 24" ${s}><circle cx="12" cy="12" r="8"/></svg>`;
-}
-function renderBrandLegend(){
- const el=document.getElementById('brandLegend'); if(!el)return;
- const brands=[...new Set(D.map(x=>x.brand).filter(Boolean))].sort();
- el.innerHTML=brands.map(b=>`<span class="brandLegendItem"><span class="brandLogo">${brandLogo(b)}</span>${esc(b)}</span>`).join('');
-}
-function render(){
- let query=norm(q.value),b=brand.value,t=tool.value;
- let a=D.filter(x=>(!b||x.brand===b)&&(!t||x.lishi===t));
- if(query){
-   let w=query.split(/\s+/).filter(Boolean);
-   a=a.filter(x=>w.every(k=>[x.brand,x.model,x.years,x.lishi,x.market].some(v=>norm(v).includes(k))));
- }
- a.sort((x,y)=>(x.brand+x.model+x.market+x.years).localeCompare(y.brand+y.model+y.market+y.years));
- stats.textContent=`Знайдено: ${a.length}`;
- if(!a.length){res.innerHTML='<div class="empty">Нічого не знайдено.<br>Спробуй іншу марку, модель або Lishi.</div>';return}
- res.innerHTML=a.slice(0,500).map(x=>{
-   const market=x.market?`<div class="market">${esc(x.market)}</div>`:'';
-   return `<div class="card"><div class="cardtop"><div class="info"><div class="brand">${esc(x.brand)}</div>${market}<div class="model">${esc(x.model)}</div><div class="years">${esc(x.years||'')}</div></div><div class="badge">${esc(x.lishi)}</div></div></div>`;
- }).join('');
-}
-document.querySelectorAll('.mode').forEach(b=>b.onclick=()=>{document.querySelectorAll('.mode').forEach(x=>x.classList.remove('active'));b.classList.add('active');mode=b.dataset.mode;render()});
-[q,brand,tool].forEach(x=>x.addEventListener('input',render));
-document.getElementById('clr').onclick=()=>{q.value='';render()};
-renderBrandLegend();
-render();
-
-async function resetApp(){
-  const btn=document.getElementById('resetApp');
-  btn.disabled=true; btn.textContent='⏳ Очищення старої версії...';
-  try{
-    if('caches' in window){ const keys=await caches.keys(); await Promise.all(keys.map(k=>caches.delete(k))); }
-    if('serviceWorker' in navigator){ const regs=await navigator.serviceWorker.getRegistrations(); await Promise.all(regs.map(r=>r.unregister())); }
-    btn.textContent='✅ Стару версію видалено. Оновлюю...';
-    setTimeout(()=>location.reload(),500);
-  }catch(e){
-    btn.disabled=false; btn.textContent='❌ Не вдалося очистити кеш. Спробуйте ще раз';
-  }
-}
-document.getElementById('resetApp').addEventListener('click',resetApp);
-
-if('serviceWorker' in navigator){
-  window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'}).then(r=>r.update()).catch(()=>{}));
-}
-</script>
-</body></html>
+  <header>
+    <div class="brandline">
+      <div class="logo" aria-hidden="true">🔑</div>
+      <div>
+        <h1>Lishi Finder</h1>
+        <p>Автомобіль → Lishi • Lishi → автомобілі</p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="install" aria-label="Встановлення застосунку">
+      📱 <b>iPhone:</b> Safari → «Поділитися» → «На початковий екран».
+    </section>
+    <section class="disclaimer" role="note">
+      Каталог має довідковий характер. Використовуйте його лише для законних робіт із дозволу власника автомобіля; перед роботою звіряйте ринок, рік і тип ключа.
+    </section>
+    <section class="searchPanel" aria-label="Пошук у каталозі">
+      <label class="srOnly" for="q">Пошук</label>
+      <div class="search">
+        <span aria-hidden="true">🔎</span>
+        <input id="q" type="search" placeholder="Toyota RAV4, Volkswagen Golf…" autocomplete="off" enterkeyhint="search">
+        <button class="clear" id="clr" type="button" aria-label="Очистити пошук" title="Очистити пошук">×</button>
+      </div>
+      <div class="modes" role="group" aria-label="Напрямок пошуку">
+        <button class="mode active" type="button" data-mode="auto" aria-pressed="true">🚗 Авто → Lishi</button>
+        <button class="mode" type="button" data-mode="lishi" aria-pressed="false">🔧 Lishi → Авто</button>
+      </div>
+      <div class="filterGrid">
+        <div class="field"><label for="brand">Марка</label><select id="brand"><option value="">Усі марки</option></select></div>
+        <div class="field"><label for="market">Ринок</label><select id="market"><option value="">Усі ринки</option></select></div>
+        <div class="field"><label for="ignition">Тип ключа</label><select id="ignition"><option value="">Будь-який</option><option value="key">Механічний ключ</option><option value="smart">Смарт-ключ / слот</option><option value="prox">Безключовий доступ</option><option value="unknown">Не вказано</option></select></div>
+        <div class="field"><label for="year">Рік</label><input id="year" type="number" min="1900" max="2100" inputmode="numeric" placeholder="Напр. 2018"></div>
+        <div class="field fieldWide"><label for="tool">Код Lishi</label><select id="tool"><option value="">Усі перевірені коди</option></select></div>
+      </div>
+    </section>
+    <section class="quickBrands" aria-labelledby="quickBrandsTitle"><h2 id="quickBrandsTitle">Швидкий вибір марки</h2><div id="brandChips" class="brandChips"></div></section>
+    <div id="modeHelp" class="modeHelp" aria-live="polite"></div>
+    <button id="showAll" class="showAll" type="button" hidden>Показати весь каталог</button>
+    <div class="stats" id="stats" aria-live="polite"></div>
+    <section id="results" aria-label="Результати пошуку"></section>
+    <section class="updatePanel" aria-label="Оновлення застосунку"><button id="resetApp" class="resetBtn" type="button">🔄 Оновити офлайн-версію</button><p id="updateStatus" class="updateStatus" aria-live="polite"></p></section>
+  </main>
+  <footer>Lishi Finder • офлайн-каталог • дані оновлюються вручну</footer>
+  <noscript><p class="noscript">Для роботи каталогу потрібно увімкнути JavaScript.</p></noscript>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "lishi-finder",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "validate": "node scripts/validate-data.mjs"
+  }
+}

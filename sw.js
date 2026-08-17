@@ -1,25 +1,10 @@
-const CACHE='lishi-finder-v5-textonly-20260814';
-const PRECACHE=['./','./index.html','./manifest.webmanifest','./icon.svg'];
-self.addEventListener('install',event=>{
-  event.waitUntil(caches.open(CACHE).then(c=>c.addAll(PRECACHE)).then(()=>self.skipWaiting()));
-});
-self.addEventListener('activate',event=>{
-  event.waitUntil(
-    caches.keys()
-      .then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k))))
-      .then(()=>self.clients.claim())
-  );
-});
-self.addEventListener('fetch',event=>{
-  const url=new URL(event.request.url);
-  if(event.request.method!=='GET') return;
-  if(url.pathname.endsWith('/data.js') || url.pathname.endsWith('/index.html') || url.pathname.endsWith('/sw.js')){
-    event.respondWith(fetch(event.request,{cache:'no-store'}).then(r=>{
-      const copy=r.clone(); caches.open(CACHE).then(c=>c.put(event.request,copy)); return r;
-    }).catch(()=>caches.match(event.request)));
-    return;
-  }
-  event.respondWith(caches.match(event.request).then(cached=>cached||fetch(event.request).then(r=>{
-    const copy=r.clone(); caches.open(CACHE).then(c=>c.put(event.request,copy)); return r;
-  })));
-});
+const CACHE="lishi-finder-v6-20260817";
+const PRECACHE=["./","./index.html","./styles.css","./app.js","./data.js","./manifest.webmanifest","./icon.svg"];
+const NETWORK_FIRST=["index.html","styles.css","app.js","data.js","manifest.webmanifest","sw.js"];
+self.addEventListener("install",event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(PRECACHE)).then(()=>self.skipWaiting()));});
+self.addEventListener("activate",event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith("lishi-finder-")&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()));});
+async function networkFirst(request){
+  try{const response=await fetch(request,{cache:"no-store"});if(response&&response.ok){const cache=await caches.open(CACHE);cache.put(request,response.clone());}return response;}
+  catch(error){const cached=await caches.match(request);if(cached)return cached;if(request.mode==="navigate")return caches.match("./index.html");throw error;}
+}
+self.addEventListener("fetch",event=>{if(event.request.method!=="GET")return;const url=new URL(event.request.url);if(url.origin!==self.location.origin)return;const file=url.pathname.split("/").pop();if(event.request.mode==="navigate"||NETWORK_FIRST.includes(file)){event.respondWith(networkFirst(event.request));return;}event.respondWith(caches.match(event.request).then(cached=>cached||fetch(event.request).then(async response=>{if(response&&response.ok){const cache=await caches.open(CACHE);cache.put(event.request,response.clone());}return response;})));});
