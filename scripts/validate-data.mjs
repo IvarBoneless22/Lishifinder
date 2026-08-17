@@ -5,7 +5,7 @@ const json=source.trim().replace(/^window\.LISHI_DATA\s*=\s*/,"").replace(/;$/,"
 const catalog=JSON.parse(json);
 const errors=[];
 const allowedStatuses=new Set(["verified","needs_review","not_available"]);
-const allowedMarkets=new Set(["AU","US","EU","BR","CAN","JP","ASIA","GLOBAL","UNSPECIFIED"]);
+const allowedMarkets=new Set(["AU","US","EU","ME","KR","BR","CAN","JP","ASIA","GLOBAL","UNSPECIFIED"]);
 const seen=new Set();
 const problem=(index,message)=>errors.push("Запис "+(index+1)+": "+message);
 
