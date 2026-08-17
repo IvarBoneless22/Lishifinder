@@ -1,5 +1,5 @@
 window.LISHI_DATA={
-  "version": "2026-08-17.3",
+  "version": "2026-08-17.4",
   "cars": [
     {
       "brand": "Audi",
@@ -5108,7 +5108,6 @@ window.LISHI_DATA={
       "status": "verified"
     },
     {"brand":"Alfa Romeo","model":"4C","years":"2015+","yearFrom":2015,"yearTo":null,"markets":["US"],"ignition":"unknown","lishi":"SIP22","status":"verified","source":"American Key Supply Lishi Reference Guide 2024","sourceUrl":"https://fliphtml5.com/aswuk/juqd/American_Key_Supply_-_Lishi_Reference_Guide_2024/42/","checkedAt":"2026-08-17"},
-    {"brand":"Alfa Romeo","model":"Giulia","years":"2017+","yearFrom":2017,"yearTo":null,"markets":["US"],"ignition":"unknown","lishi":"SIP22","status":"verified","source":"American Key Supply Lishi Reference Guide 2024","sourceUrl":"https://fliphtml5.com/aswuk/juqd/American_Key_Supply_-_Lishi_Reference_Guide_2024/42/","checkedAt":"2026-08-17"},
     {"brand":"Alfa Romeo","model":"Stelvio","years":"2018+","yearFrom":2018,"yearTo":null,"markets":["US"],"ignition":"unknown","lishi":"SIP22","status":"verified","source":"American Key Supply Lishi Reference Guide 2024","sourceUrl":"https://fliphtml5.com/aswuk/juqd/American_Key_Supply_-_Lishi_Reference_Guide_2024/42/","checkedAt":"2026-08-17"},
     {"brand":"Fiat","model":"500","years":"2012-2019","yearFrom":2012,"yearTo":2019,"markets":["US"],"ignition":"unknown","lishi":"SIP22","status":"verified","source":"American Key Supply Lishi Reference Guide 2024","sourceUrl":"https://fliphtml5.com/aswuk/juqd/American_Key_Supply_-_Lishi_Reference_Guide_2024/46/","checkedAt":"2026-08-17"},
     {"brand":"Fiat","model":"500e","years":"2013-2018","yearFrom":2013,"yearTo":2018,"markets":["US"],"ignition":"unknown","lishi":"SIP22","status":"verified","source":"American Key Supply Lishi Reference Guide 2024","sourceUrl":"https://fliphtml5.com/aswuk/juqd/American_Key_Supply_-_Lishi_Reference_Guide_2024/46/","checkedAt":"2026-08-17"},
@@ -5202,7 +5201,7 @@ window.LISHI_DATA={
     {"brand":"Alfa Romeo","model":"GT Key","years":"2003-2012","yearFrom":2003,"yearTo":2012,"markets":["AU"],"ignition":"key","lishi":"SIP22","chip":"48","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
     {"brand":"Alfa Romeo","model":"159 Slot","years":"2007-2011","yearFrom":2007,"yearTo":2011,"markets":["EU"],"ignition":"smart","lishi":"SIP22","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
     {"brand":"Alfa Romeo","model":"Tonale Key Start","years":"2022-2023","yearFrom":2022,"yearTo":2023,"markets":["EU"],"ignition":"key","lishi":"SIP22","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
-    {"brand":"Alfa Romeo","model":"Giulia Prox","years":"2016-2023","yearFrom":2016,"yearTo":2023,"markets":["UNSPECIFIED"],"ignition":"prox","lishi":"GT21","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Alfa Romeo","model":"Giulia Prox","years":"2016-2023","yearFrom":2016,"yearTo":2023,"markets":["UNSPECIFIED"],"ignition":"prox","lishi":"GT21","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17","alternativeLishi":"SIP22","alternativeSource":"American Key Supply Lishi Reference Guide 2024","alternativeSourceUrl":"https://fliphtml5.com/aswuk/juqd/American_Key_Supply_-_Lishi_Reference_Guide_2024/42/","alternativeNote":"Giulia 2017+, ринок США, тип запуску не уточнено","note":"Пріоритет користувацького скріншота: GT21. Альтернативний довідник вказує SIP22."},
     {"brand":"Alfa Romeo","model":"Giulietta ZARS940","years":"2010-2021","yearFrom":2010,"yearTo":2021,"markets":["UNSPECIFIED"],"ignition":"unknown","lishi":"SIP22","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
     {"brand":"Alfa Romeo","model":"MiTo ZAR955","years":"2008-2021","yearFrom":2008,"yearTo":2021,"markets":["UNSPECIFIED"],"ignition":"unknown","lishi":"SIP22","chip":"46","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
     {"brand":"Alfa Romeo","model":"Stelvio Prox","years":"2017-2024","yearFrom":2017,"yearTo":2024,"markets":["UNSPECIFIED"],"ignition":"prox","lishi":"SIP22","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"}
