@@ -1,4 +1,4 @@
-const CACHE="lishi-finder-v17-20260817";
+const CACHE="lishi-finder-v18-20260817";
 const PRECACHE=["./","./index.html","./styles.css","./app.js","./data.js","./manifest.webmanifest","./icon.svg","./sample-external-data.csv"];
 const NETWORK_FIRST=["index.html","styles.css","app.js","data.js","manifest.webmanifest","sw.js","sample-external-data.csv"];
 self.addEventListener("install",event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(PRECACHE)).then(()=>self.skipWaiting()));});
