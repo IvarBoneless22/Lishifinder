@@ -6,6 +6,7 @@ const catalog=JSON.parse(json);
 const errors=[];
 const allowedStatuses=new Set(["verified","needs_review","not_available"]);
 const allowedMarkets=new Set(["AU","US","EU","ME","KR","BR","CAN","JP","ASIA","GLOBAL","UNSPECIFIED"]);
+const allowedKeyShapes=new Set(["edge","laser","fob","unknown"]);
 const seen=new Set();
 const problem=(index,message)=>errors.push("Запис "+(index+1)+": "+message);
 
@@ -29,6 +30,10 @@ for(const [index,record] of (catalog.cars||[]).entries()){
   if(record.alternativeLishi&&(!record.alternativeSource||!String(record.alternativeSource).trim()))problem(index,"альтернативний код не має джерела");
   if(record.alternativeLishi&&(!record.note||!String(record.note).trim()))problem(index,"альтернативний код не має примітки");
   if(record.chip!==null&&record.chip!==undefined&&!/^[A-Za-z0-9() .-]+$/.test(record.chip))problem(index,"некоректний код чипа");
+  if(record.keyShape!==null&&record.keyShape!==undefined&&!allowedKeyShapes.has(record.keyShape))problem(index,"невідома форма ключа "+record.keyShape);
+  if(record.keyPhoto!==null&&record.keyPhoto!==undefined&&!/^(https:\/\/|assets\/key-photos\/)[^\s]+$/i.test(record.keyPhoto))problem(index,"некоректний шлях до фото ключа");
+  if(record.keyPhoto&&(!record.keyPhotoAlt||!String(record.keyPhotoAlt).trim()))problem(index,"фото ключа не має альтернативного опису");
+  if(record.keyPhotoSource!==null&&record.keyPhotoSource!==undefined&&!/^https?:\/\/[^\s]+$/i.test(record.keyPhotoSource))problem(index,"некоректне джерело фото ключа");
   const key=[record.brand,record.model,record.years,(record.markets||[]).join(","),record.ignition].join("|");
   if(seen.has(key))problem(index,"дубльований запис автомобіля");
   seen.add(key);
