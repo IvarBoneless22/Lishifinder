@@ -25,9 +25,11 @@ for(const [index,record] of (catalog.cars||[]).entries()){
   if(record.status==="verified"&&(!record.lishi||!String(record.lishi).trim()))problem(index,"перевірений запис не має коду Lishi");
   if(record.status!=="verified"&&(!record.note||!record.note.trim()))problem(index,"неперевірений запис не має пояснення");
   if(record.lishi!==null&&record.lishi!==undefined&&!/^[A-Za-z0-9-]+$/.test(record.lishi))problem(index,"некоректний код Lishi");
+  if(record.chip!==null&&record.chip!==undefined&&!/^[A-Za-z0-9-]+$/.test(record.chip))problem(index,"некоректний код чипа");
   const key=[record.brand,record.model,record.years,(record.markets||[]).join(","),record.ignition].join("|");
   if(seen.has(key))problem(index,"дубльований запис автомобіля");
   seen.add(key);
 }
 if(errors.length){console.error(errors.join("\n"));process.exit(1);}
 console.log("Каталог перевірено: "+catalog.cars.length+" записів, версія "+catalog.version+".");
+
