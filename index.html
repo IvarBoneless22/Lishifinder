@@ -66,10 +66,27 @@
     <section id="results" aria-label="Результати пошуку"></section>
     <section class="updatePanel" aria-label="Оновлення застосунку"><button id="resetApp" class="resetBtn" type="button">🔄 Оновити офлайн-версію</button><p id="updateStatus" class="updateStatus" aria-live="polite"></p></section>
   </main>
+  <dialog id="photoDialog" class="photoDialog" aria-labelledby="photoTitle">
+    <div class="photoDialogPanel">
+      <div class="photoHeader">
+        <div><span class="photoEyebrow">Фото моделі</span><h2 id="photoTitle">Автомобіль</h2></div>
+        <button id="photoClose" class="photoClose" type="button" aria-label="Закрити фото">×</button>
+      </div>
+      <div class="photoStage">
+        <div id="photoLoading" class="photoLoading" role="status">Шукаю відповідне фото…</div>
+        <img id="photoImage" alt="" hidden>
+        <p id="photoMessage" class="photoMessage" role="status" hidden></p>
+      </div>
+      <div id="photoCredit" class="photoCredit" hidden>
+        <p id="photoCreditText"></p>
+        <a id="photoSource" href="https://commons.wikimedia.org/" target="_blank" rel="noopener noreferrer">Відкрити оригінал і ліцензію ↗</a>
+      </div>
+      <p class="photoHint">Фото автоматично підібране за назвою. Рік, кузов або покоління можуть відрізнятися — звірте їх перед роботою.</p>
+    </div>
+  </dialog>
   <footer>Lishi Finder • офлайн-каталог • дані оновлюються вручну</footer>
   <noscript><p class="noscript">Для роботи каталогу потрібно увімкнути JavaScript.</p></noscript>
   <script src="data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
-
