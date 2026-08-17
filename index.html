@@ -40,6 +40,7 @@
       <div class="modes" role="group" aria-label="Напрямок пошуку">
         <button class="mode active" type="button" data-mode="auto" aria-pressed="true">🚗 Авто → Lishi</button>
         <button class="mode" type="button" data-mode="lishi" aria-pressed="false">🔧 Lishi → Авто</button>
+        <button class="mode" type="button" data-mode="compare" aria-pressed="false">📚 Порівняти</button>
       </div>
       <div class="filterGrid">
         <div class="field brandField">
@@ -58,6 +59,7 @@
         <div class="field"><label for="year">Рік</label><input id="year" type="number" min="1900" max="2100" inputmode="numeric" placeholder="Напр. 2018"></div>
         <div class="field fieldWide"><label for="tool">Код Lishi</label><select id="tool"><option value="">Усі перевірені коди</option></select></div>
       </div>
+      <button id="manageSources" class="sourceManagerButton" type="button">📥 Джерела та імпорт <span id="sourceCount">0 зовнішніх</span></button>
     </section>
     <section class="quickBrands" aria-labelledby="quickBrandsTitle"><h2 id="quickBrandsTitle">Швидкий вибір марки</h2><div id="brandChips" class="brandChips"></div></section>
     <div id="modeHelp" class="modeHelp" aria-live="polite"></div>
@@ -82,6 +84,31 @@
         <a id="photoSource" href="https://commons.wikimedia.org/" target="_blank" rel="noopener noreferrer">Відкрити оригінал і ліцензію ↗</a>
       </div>
       <p class="photoHint">Фото автоматично підібране за назвою. Рік, кузов або покоління можуть відрізнятися — звірте їх перед роботою.</p>
+    </div>
+  </dialog>
+  <dialog id="sourcesDialog" class="sourcesDialog" aria-labelledby="sourcesTitle">
+    <div class="sourcesDialogPanel">
+      <div class="dialogHeader">
+        <div><span class="dialogEyebrow">Порівняння</span><h2 id="sourcesTitle">Джерела та імпорт</h2></div>
+        <button id="sourcesClose" class="dialogClose" type="button" aria-label="Закрити джерела">×</button>
+      </div>
+      <div class="sourcesDialogBody">
+        <section class="sourceList" aria-labelledby="connectedSourcesTitle">
+          <h3 id="connectedSourcesTitle">Підключені джерела</h3>
+          <article class="sourceItem"><div><strong>LishiFinder</strong><span>Вбудований каталог — 392 записи</span></div><span class="sourceState ready">Підключено</span></article>
+          <article class="sourceItem"><div><strong>Original Lishi</strong><span>Офіційний публічний каталог</span></div><a href="https://www.originallishi.com/lishi-tools-full-list/" target="_blank" rel="noopener noreferrer">Відкрити ↗</a></article>
+          <article class="sourceItem"><div><strong>Genuine Lishi</strong><span>Офіційний пошук інструментів</span></div><a href="https://www.genuinelishi.com/" target="_blank" rel="noopener noreferrer">Відкрити ↗</a></article>
+          <article class="sourceItem"><div><strong>Імпортовані дані</strong><span id="importedSourceSummary">Ще не імпортовано</span></div><span id="importedSourceState" class="sourceState">0</span></article>
+        </section>
+        <section class="importPanel" aria-labelledby="importTitle">
+          <h3 id="importTitle">Імпорт дозволеного експорту</h3>
+          <p>Оберіть CSV або JSON із власного чи дозволеного джерела. Файл обробляється тільки у вашому браузері та не надсилається на сервер.</p>
+          <label class="filePicker" for="sourceFile">Вибрати CSV або JSON<input id="sourceFile" type="file" accept=".csv,.json,text/csv,application/json"></label>
+          <p class="formatHint"><b>Поля:</b> brand, model, years, yearFrom, yearTo, market, lishi, source, sourceUrl, note. Обов’язкові: brand, model і lishi. <a href="sample-external-data.csv" download>Завантажити шаблон CSV</a></p>
+          <div class="sourceActions"><button id="clearSources" class="secondaryButton" type="button">Очистити імпорт</button><button id="exportData" class="secondaryButton" type="button">Експортувати мої дані</button></div>
+          <p id="importStatus" class="importStatus" aria-live="polite"></p>
+        </section>
+      </div>
     </div>
   </dialog>
   <footer>Lishi Finder • офлайн-каталог • дані оновлюються вручну</footer>
