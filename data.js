@@ -1,5 +1,5 @@
 window.LISHI_DATA={
-  "version": "2026-08-17.2",
+  "version": "2026-08-17.3",
   "cars": [
     {
       "brand": "Audi",
@@ -5193,7 +5193,19 @@ window.LISHI_DATA={
     {"brand":"Fiat","model":"Freemont JF","years":"2013-2018","yearFrom":2013,"yearTo":2018,"markets":["UNSPECIFIED"],"ignition":"prox","lishi":"CY24","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
     {"brand":"Fiat","model":"Grande Punto 199 Key Start","years":"2005-2012","yearFrom":2005,"yearTo":2012,"markets":["UNSPECIFIED"],"ignition":"key","lishi":"SIP22","chip":"46","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
     {"brand":"Fiat","model":"Grande Punto","years":"2011+","yearFrom":2011,"yearTo":null,"markets":["UNSPECIFIED"],"ignition":"unknown","lishi":"SIP22","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
-    {"brand":"Alfa Romeo","model":"MiTo","years":"2008-2015","yearFrom":2008,"yearTo":2015,"markets":["UNSPECIFIED"],"ignition":"unknown","lishi":"SIP22","chip":"46","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"}
+    {"brand":"Alfa Romeo","model":"147 Key Start","years":"2001-2010","yearFrom":2001,"yearTo":2010,"markets":["AU"],"ignition":"key","lishi":"SIP22","chip":"48","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Alfa Romeo","model":"156","years":"2002-2003","yearFrom":2002,"yearTo":2003,"markets":["AU"],"ignition":"unknown","lishi":"GT15R","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Alfa Romeo","model":"156","years":"2004-2007","yearFrom":2004,"yearTo":2007,"markets":["AU"],"ignition":"unknown","lishi":"GT15R","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Alfa Romeo","model":"159 Slot","years":"2006-2012","yearFrom":2006,"yearTo":2012,"markets":["AU"],"ignition":"smart","lishi":"SIP22","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Alfa Romeo","model":"166","years":"1998-2001","yearFrom":1998,"yearTo":2001,"markets":["AU"],"ignition":"unknown","lishi":"SIP16","chip":"44","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Alfa Romeo","model":"Brera Slot","years":"2006-2011","yearFrom":2006,"yearTo":2011,"markets":["AU"],"ignition":"smart","lishi":"SIP22","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Alfa Romeo","model":"GT Key","years":"2003-2012","yearFrom":2003,"yearTo":2012,"markets":["AU"],"ignition":"key","lishi":"SIP22","chip":"48","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Alfa Romeo","model":"159 Slot","years":"2007-2011","yearFrom":2007,"yearTo":2011,"markets":["EU"],"ignition":"smart","lishi":"SIP22","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Alfa Romeo","model":"Tonale Key Start","years":"2022-2023","yearFrom":2022,"yearTo":2023,"markets":["EU"],"ignition":"key","lishi":"SIP22","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Alfa Romeo","model":"Giulia Prox","years":"2016-2023","yearFrom":2016,"yearTo":2023,"markets":["UNSPECIFIED"],"ignition":"prox","lishi":"GT21","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Alfa Romeo","model":"Giulietta ZARS940","years":"2010-2021","yearFrom":2010,"yearTo":2021,"markets":["UNSPECIFIED"],"ignition":"unknown","lishi":"SIP22","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Alfa Romeo","model":"MiTo ZAR955","years":"2008-2021","yearFrom":2008,"yearTo":2021,"markets":["UNSPECIFIED"],"ignition":"unknown","lishi":"SIP22","chip":"46","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Alfa Romeo","model":"Stelvio Prox","years":"2017-2024","yearFrom":2017,"yearTo":2024,"markets":["UNSPECIFIED"],"ignition":"prox","lishi":"SIP22","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"}
   ]
 };
 
