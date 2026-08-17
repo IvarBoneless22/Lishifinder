@@ -1,5 +1,5 @@
 window.LISHI_DATA={
-  "version": "2026-08-17",
+  "version": "2026-08-17.2",
   "cars": [
     {
       "brand": "Audi",
@@ -5169,7 +5169,31 @@ window.LISHI_DATA={
     {"brand":"Porsche","model":"Cayenne","years":"2003-2019","yearFrom":2003,"yearTo":2019,"markets":["US"],"ignition":"unknown","lishi":"HU66","status":"verified","source":"American Key Supply Lishi Reference Guide 2024","sourceUrl":"https://fliphtml5.com/aswuk/juqd/American_Key_Supply_-_Lishi_Reference_Guide_2024/55/","checkedAt":"2026-08-17"},
     {"brand":"Porsche","model":"Cayman","years":"2006-2019","yearFrom":2006,"yearTo":2019,"markets":["US"],"ignition":"unknown","lishi":"HU66","status":"verified","source":"American Key Supply Lishi Reference Guide 2024","sourceUrl":"https://fliphtml5.com/aswuk/juqd/American_Key_Supply_-_Lishi_Reference_Guide_2024/55/","checkedAt":"2026-08-17"},
     {"brand":"Porsche","model":"Macan","years":"2015-2018","yearFrom":2015,"yearTo":2018,"markets":["US"],"ignition":"unknown","lishi":"HU66","status":"verified","source":"American Key Supply Lishi Reference Guide 2024","sourceUrl":"https://fliphtml5.com/aswuk/juqd/American_Key_Supply_-_Lishi_Reference_Guide_2024/55/","checkedAt":"2026-08-17"},
-    {"brand":"Porsche","model":"Panamera","years":"2010-2018","yearFrom":2010,"yearTo":2018,"markets":["US"],"ignition":"unknown","lishi":"HU66","status":"verified","source":"American Key Supply Lishi Reference Guide 2024","sourceUrl":"https://fliphtml5.com/aswuk/juqd/American_Key_Supply_-_Lishi_Reference_Guide_2024/55/","checkedAt":"2026-08-17"}
+    {"brand":"Porsche","model":"Panamera","years":"2010-2018","yearFrom":2010,"yearTo":2018,"markets":["US"],"ignition":"unknown","lishi":"HU66","status":"verified","source":"American Key Supply Lishi Reference Guide 2024","sourceUrl":"https://fliphtml5.com/aswuk/juqd/American_Key_Supply_-_Lishi_Reference_Guide_2024/55/","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"124","years":"2017","yearFrom":2017,"yearTo":2017,"markets":["UNSPECIFIED"],"ignition":"prox","lishi":"MAZ24R","chip":"47","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"500 Hybrid Key Start","years":"2020-2026","yearFrom":2020,"yearTo":2026,"markets":["UNSPECIFIED"],"ignition":"key","lishi":"SIP22","chip":"46","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"500 Key Start","years":"2007-2020","yearFrom":2007,"yearTo":2020,"markets":["UNSPECIFIED"],"ignition":"key","lishi":"SIP22","chip":"46","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"500X FD","years":"2018-2021","yearFrom":2018,"yearTo":2021,"markets":["UNSPECIFIED"],"ignition":"prox","lishi":"SIP22","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"Doblo","years":"2009-2015","yearFrom":2009,"yearTo":2015,"markets":["UNSPECIFIED"],"ignition":"unknown","lishi":"SIP22","chip":"46","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"Ducato","years":"1998-2006","yearFrom":1998,"yearTo":2006,"markets":["UNSPECIFIED"],"ignition":"unknown","lishi":"SIP22","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"Panda 169 Key Start","years":"2003-2011","yearFrom":2003,"yearTo":2011,"markets":["UNSPECIFIED"],"ignition":"key","lishi":"SIP22","chip":"46","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"Panda 312 Key Start","years":"2013-2024","yearFrom":2013,"yearTo":2024,"markets":["UNSPECIFIED"],"ignition":"key","lishi":"SIP22","chip":"46","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"Panda Hybrid Key Start","years":"2020-2024","yearFrom":2020,"yearTo":2024,"markets":["UNSPECIFIED"],"ignition":"key","lishi":"SIP22","chip":"46","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"Scudo","years":"2007-2015","yearFrom":2007,"yearTo":2015,"markets":["UNSPECIFIED"],"ignition":"unknown","lishi":"HU83","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"Scudo Key Start","years":"2021-2023","yearFrom":2021,"yearTo":2023,"markets":["UNSPECIFIED"],"ignition":"key","lishi":"HU83","chip":"49-1E","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"Talento (Key)","years":"2016+","yearFrom":2016,"yearTo":null,"markets":["UNSPECIFIED"],"ignition":"key","lishi":"VA2","chip":"49-1E","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"Ducato","years":"2009","yearFrom":2009,"yearTo":2009,"markets":["UNSPECIFIED"],"ignition":"unknown","lishi":"SIP22","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"Ducato 3&4 ZFA250","years":"2012-2021","yearFrom":2012,"yearTo":2021,"markets":["UNSPECIFIED"],"ignition":"unknown","lishi":"SIP22","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"Ducato 8","years":"2021-2024","yearFrom":2021,"yearTo":2024,"markets":["UNSPECIFIED"],"ignition":"unknown","lishi":"SIP22","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"124 Spider Prox Push Button","years":"2017-2020","yearFrom":2017,"yearTo":2020,"markets":["EU"],"ignition":"prox","lishi":"SIP22","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"Panda","years":"2004-2008","yearFrom":2004,"yearTo":2008,"markets":["EU"],"ignition":"unknown","lishi":"SIP22","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"Stilo Key Start","years":"2001-2010","yearFrom":2001,"yearTo":2010,"markets":["EU"],"ignition":"key","lishi":"SIP22","chip":"48","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"Tipo","years":"2015+","yearFrom":2015,"yearTo":null,"markets":["EU"],"ignition":"unknown","lishi":"SIP22","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"Fiorino","years":"2008-2015","yearFrom":2008,"yearTo":2015,"markets":["UNSPECIFIED"],"ignition":"unknown","lishi":"SIP22","chip":"46","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"Freemont JF","years":"2013-2018","yearFrom":2013,"yearTo":2018,"markets":["UNSPECIFIED"],"ignition":"prox","lishi":"CY24","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"Grande Punto 199 Key Start","years":"2005-2012","yearFrom":2005,"yearTo":2012,"markets":["UNSPECIFIED"],"ignition":"key","lishi":"SIP22","chip":"46","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Fiat","model":"Grande Punto","years":"2011+","yearFrom":2011,"yearTo":null,"markets":["UNSPECIFIED"],"ignition":"unknown","lishi":"SIP22","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"},
+    {"brand":"Alfa Romeo","model":"MiTo","years":"2008-2015","yearFrom":2008,"yearTo":2015,"markets":["UNSPECIFIED"],"ignition":"unknown","lishi":"SIP22","chip":"46","status":"verified","source":"Скріншот користувача","checkedAt":"2026-08-17"}
   ]
 };
 
