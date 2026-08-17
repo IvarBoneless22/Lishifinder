@@ -2,21 +2,53 @@
   "use strict";
   const catalog=(window.LISHI_DATA&&Array.isArray(window.LISHI_DATA.cars))?window.LISHI_DATA.cars:[];
   const $=id=>document.getElementById(id);
-  const elements={query:$("q"),brand:$("brand"),market:$("market"),ignition:$("ignition"),year:$("year"),tool:$("tool"),results:$("results"),stats:$("stats"),chips:$("brandChips"),modeHelp:$("modeHelp"),showAll:$("showAll"),clear:$("clr"),reset:$("resetApp"),updateStatus:$("updateStatus")};
+  const elements={query:$("q"),brand:$("brand"),brandPicker:$("brandPicker"),brandButton:$("brandButton"),brandButtonIcon:$("brandButtonIcon"),brandButtonText:$("brandButtonText"),brandMenu:$("brandMenu"),market:$("market"),ignition:$("ignition"),year:$("year"),tool:$("tool"),results:$("results"),stats:$("stats"),chips:$("brandChips"),modeHelp:$("modeHelp"),showAll:$("showAll"),clear:$("clr"),reset:$("resetApp"),updateStatus:$("updateStatus")};
   const state={mode:"auto",showAll:false};
+  const brandIcons={
+    Audi:'<svg viewBox="0 0 48 48" focusable="false"><g fill="none" stroke="currentColor" stroke-width="3.2"><circle cx="9" cy="24" r="7.5"/><circle cx="19" cy="24" r="7.5"/><circle cx="29" cy="24" r="7.5"/><circle cx="39" cy="24" r="7.5"/></g></svg>',
+    BMW:'<svg viewBox="0 0 48 48" focusable="false"><circle cx="24" cy="24" r="20" fill="#111827"/><circle cx="24" cy="24" r="15" fill="#fff"/><path d="M24 24V9a15 15 0 0 1 15 15Z" fill="#1d8bd1"/><path d="M24 24v15A15 15 0 0 1 9 24Z" fill="#1d8bd1"/><circle cx="24" cy="24" r="15" fill="none" stroke="#111827" stroke-width="2"/></svg>',
+    Citroen:'<svg viewBox="0 0 48 48" focusable="false"><g fill="none" stroke="#d71920" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="m10 25 14-10 14 10"/><path d="m10 36 14-10 14 10"/></g></svg>',
+    Dacia:'<svg viewBox="0 0 48 48" focusable="false"><path d="M7 11h34v14c0 9-7 15-17 18C14 40 7 34 7 25Z" fill="#0f6fae"/><path d="M16 18h9c7 0 11 3 11 8s-4 8-11 8h-9Zm7 5v6h3c3 0 4-1 4-3s-1-3-4-3Z" fill="#fff"/></svg>',
+    'Mercedes-Benz':'<svg viewBox="0 0 48 48" focusable="false"><circle cx="24" cy="24" r="19" fill="none" stroke="currentColor" stroke-width="2.6"/><path d="M24 7 28 27 24 24 20 27Zm4 20 12 9-16-12Zm-8 0L8 36l16-12Z" fill="currentColor"/></svg>',
+    Renault:'<svg viewBox="0 0 48 48" focusable="false"><path d="M24 4 41 24 24 44 7 24Zm0 8L14 24l10 12 10-12Z" fill="#f4c300" stroke="#212121" stroke-width="2" fill-rule="evenodd"/></svg>',
+    Toyota:'<svg viewBox="0 0 48 48" focusable="false"><g fill="none" stroke="#d71920" stroke-width="2.8"><ellipse cx="24" cy="24" rx="20" ry="13"/><ellipse cx="24" cy="24" rx="8" ry="13"/><ellipse cx="24" cy="18" rx="15" ry="6"/></g></svg>',
+    Volkswagen:'<svg viewBox="0 0 48 48" focusable="false"><circle cx="24" cy="24" r="20" fill="#0b5a9c"/><circle cx="24" cy="24" r="16" fill="none" stroke="#fff" stroke-width="2"/><path d="m14 13 7 17 3-8 3 8 7-17M12 25l8 12 4-10 4 10 8-12" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+  };
   const marketNames={AU:"Австралія",US:"США",EU:"Європа",JP:"Японія",ASIA:"Азія",GLOBAL:"Глобальний",UNSPECIFIED:"Не вказано"};
   const ignitionNames={key:"Механічний ключ",smart:"Смарт-ключ / слот",prox:"Безключовий доступ",unknown:"Не вказано"};
   const normalize=value=>String(value||"").toLocaleLowerCase("uk").trim();
   const uniqueSorted=items=>[...new Set(items.filter(Boolean))].sort((a,b)=>a.localeCompare(b,"uk"));
   const isVerified=record=>record.status==="verified"&&Boolean(record.lishi);
   function addOptions(select,items,label){uniqueSorted(items).forEach(value=>select.add(new Option(label?label(value):value,value)));}
+  function makeBrandMark(brand){
+    const mark=document.createElement("span");mark.className="brandMark";mark.setAttribute("aria-hidden","true");
+    if(brandIcons[brand])mark.innerHTML=brandIcons[brand];else{mark.classList.add("brandMarkFallback");mark.textContent=brand?brand.charAt(0):"🚘";}return mark;
+  }
+  function closeBrandMenu({focusButton=false}={}){elements.brandMenu.hidden=true;elements.brandButton.setAttribute("aria-expanded","false");if(focusButton)elements.brandButton.focus();}
+  function openBrandMenu(preferred="selected"){
+    elements.brandMenu.hidden=false;elements.brandButton.setAttribute("aria-expanded","true");
+    const options=[...elements.brandMenu.querySelectorAll(".brandOption")];const target=preferred==="last"?options.at(-1):(preferred==="first"?options[0]:options.find(option=>option.getAttribute("aria-selected")==="true")||options[0]);
+    window.requestAnimationFrame(()=>target&&target.focus());
+  }
+  function selectBrand(brand,{showResults=true,focusButton=false}={}){
+    elements.brand.value=brand;elements.brandButtonText.textContent=brand||"Усі марки";elements.brandButtonIcon.replaceWith(makeBrandMark(brand));elements.brandButtonIcon=elements.brandButton.querySelector(".brandMark");
+    elements.brandMenu.querySelectorAll(".brandOption").forEach(option=>{const selected=option.dataset.brand===brand;option.classList.toggle("selected",selected);option.setAttribute("aria-selected",String(selected));});
+    if(showResults)state.showAll=true;closeBrandMenu({focusButton});render();
+  }
+  function prepareBrandPicker(brands){
+    ["",...brands].forEach(brand=>{const option=document.createElement("button");option.type="button";option.className="brandOption";option.setAttribute("role","option");option.dataset.brand=brand;option.setAttribute("aria-selected",String(!brand));option.append(makeBrandMark(brand),document.createTextNode(brand||"Усі марки"));option.addEventListener("click",()=>selectBrand(brand,{focusButton:true}));elements.brandMenu.append(option);});
+    elements.brandButton.addEventListener("click",()=>elements.brandMenu.hidden?openBrandMenu():closeBrandMenu());
+    elements.brandButton.addEventListener("keydown",event=>{if(event.key==="ArrowDown"||event.key==="ArrowUp"){event.preventDefault();openBrandMenu(event.key==="ArrowUp"?"last":"selected");}});
+    elements.brandMenu.addEventListener("keydown",event=>{const options=[...elements.brandMenu.querySelectorAll(".brandOption")];const index=options.indexOf(document.activeElement);if(event.key==="Escape"){event.preventDefault();closeBrandMenu({focusButton:true});return;}if((event.key==="Enter"||event.key===" ")&&index>=0){event.preventDefault();options[index].click();return;}if(!["ArrowDown","ArrowUp","Home","End"].includes(event.key))return;event.preventDefault();let next=index;if(event.key==="Home")next=0;else if(event.key==="End")next=options.length-1;else next=(index+(event.key==="ArrowDown"?1:-1)+options.length)%options.length;options[next].focus();});
+    document.addEventListener("pointerdown",event=>{if(!elements.brandPicker.contains(event.target))closeBrandMenu();});
+  }
   function prepareFilters(){
-    addOptions(elements.brand,catalog.map(record=>record.brand));
+    const brands=uniqueSorted(catalog.map(record=>record.brand));prepareBrandPicker(brands);
     addOptions(elements.market,catalog.flatMap(record=>record.markets||[]),value=>marketNames[value]||value);
     addOptions(elements.tool,catalog.filter(isVerified).map(record=>record.lishi));
-    uniqueSorted(catalog.map(record=>record.brand)).forEach(brand=>{
-      const button=document.createElement("button");button.type="button";button.className="brandChip";button.textContent=brand;button.dataset.brand=brand;
-      button.addEventListener("click",()=>{elements.brand.value=elements.brand.value===brand?"":brand;state.showAll=true;render();});elements.chips.append(button);
+    brands.forEach(brand=>{
+      const button=document.createElement("button");button.type="button";button.className="brandChip";button.append(makeBrandMark(brand),document.createTextNode(brand));button.dataset.brand=brand;
+      button.addEventListener("click",()=>selectBrand(elements.brand.value===brand?"":brand));elements.chips.append(button);
     });
   }
   function matchesQuery(record,query){
@@ -33,7 +65,7 @@
   }
   function makeCard(record){
     const card=document.createElement("article");card.className="card";const top=document.createElement("div");top.className="cardTop";const info=document.createElement("div");info.className="info";
-    const brand=document.createElement("div");brand.className="brand";brand.textContent=record.brand;const model=document.createElement("div");model.className="model";model.textContent=record.model;
+    const brand=document.createElement("div");brand.className="brand brandWithMark";brand.append(makeBrandMark(record.brand),document.createTextNode(record.brand));const model=document.createElement("div");model.className="model";model.textContent=record.model;
     const meta=document.createElement("div");meta.className="meta";const marketLabel=(record.markets||[]).map(value=>marketNames[value]||value).join(", ");meta.textContent=(record.years||"Рік не вказано")+" • "+(marketLabel||"Ринок не вказано")+" • "+(ignitionNames[record.ignition]||ignitionNames.unknown);
     info.append(brand,model,meta);const badge=document.createElement("div");badge.className="badge"+(isVerified(record)?"":" warning");badge.textContent=isVerified(record)?record.lishi:(record.status==="not_available"?"Немає даних":"Потрібна перевірка");top.append(info,badge);card.append(top);
     if(!isVerified(record)&&record.note){const note=document.createElement("p");note.className="recordNote";note.textContent=record.note;card.append(note);}return card;
@@ -65,7 +97,8 @@
   }
   document.querySelectorAll(".mode").forEach(button=>button.addEventListener("click",()=>{state.mode=button.dataset.mode;state.showAll=false;elements.query.value="";render();}));
   elements.query.addEventListener("input",()=>{state.showAll=true;render();});elements.year.addEventListener("input",()=>{state.showAll=true;render();});
-  [elements.brand,elements.market,elements.ignition,elements.tool].forEach(element=>element.addEventListener("change",()=>{state.showAll=true;render();}));
+  [elements.market,elements.ignition,elements.tool].forEach(element=>element.addEventListener("change",()=>{state.showAll=true;render();}));
   elements.clear.addEventListener("click",()=>{elements.query.value="";elements.query.focus();state.showAll=false;render();});elements.showAll.addEventListener("click",()=>{state.showAll=true;render();});elements.reset.addEventListener("click",refreshOfflineVersion);
   prepareFilters();render();registerServiceWorker();
 })();
+
