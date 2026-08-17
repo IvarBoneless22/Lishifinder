@@ -40,6 +40,11 @@ button{font:inherit}.mode{border:0;border-radius:13px;padding:11px 6px;font-weig
 .notice{background:#fff8df;border:1px solid #ead9a1;color:#5c4b12;border-radius:12px;padding:9px 11px;font-size:12px;margin:9px 0}
 footer{position:fixed;left:0;right:0;bottom:0;padding:9px 14px calc(9px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--line);z-index:30;text-align:center;color:var(--muted);font-size:11px}
 @media(min-width:600px){}
+
+.brandLegend{display:flex;flex-wrap:wrap;gap:7px;margin:8px 0 12px}
+.brandLegendItem{display:flex;align-items:center;gap:6px;background:#f3f6f8;border:1px solid #d9e0e5;border-radius:999px;padding:5px 9px 5px 6px;font-size:12px;font-weight:700;color:#243746}
+.brandLogo{width:24px;height:24px;display:grid;place-items:center;border-radius:50%;flex:0 0 24px;background:#fff;border:1px solid #d5dce1;overflow:hidden}
+.brandLogo svg{width:19px;height:19px;display:block}
 </style>
 </head>
 <body>
@@ -50,7 +55,7 @@ footer{position:fixed;left:0;right:0;bottom:0;padding:9px 14px calc(9px + env(sa
  <div class="install">📱 <b>Для iPhone:</b> Safari → «Поділитися» → «На початковий екран».</div>
  <div class="search"><span>🔎</span><input id="q" placeholder="Toyota RAV4, Volkswagen Golf, TOY43AT…" autocomplete="off"><button class="clear" id="clr">×</button></div>
  <div class="modes"><button class="mode active" data-mode="auto">🚗 Авто → Lishi</button><button class="mode" data-mode="lishi">🔧 Lishi → Авто</button></div>
- <div class="filters"><select id="brand"><option value="">Усі марки</option></select><select id="tool"><option value="">Усі Lishi</option></select></div>
+ <div class="filters"><select id="brand"><option value="">Усі марки</option></select><div id="brandLegend" class="brandLegend"></div><select id="tool"><option value="">Усі Lishi</option></select></div>
  <div class="notice">Каталог сформовано тільки з наданих матеріалів. Фотографії та профілі не використовуються.</div><button id="resetApp" class="resetBtn">🔄 Видалити стару версію та завантажити оновлення</button>
  <div class="stats" id="stats"></div><div id="results"></div>
 </main>
@@ -67,6 +72,24 @@ const norm=x=>String(x??'').toLowerCase().trim();
 function esc(x){return String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 
 function esc(x){return String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+
+function brandLogo(brand){
+ const b=String(brand||''), s='fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"';
+ if(b==='Audi') return `<svg viewBox="0 0 24 24" ${s}><ellipse cx="6" cy="12" rx="4" ry="6"/><ellipse cx="10" cy="12" rx="4" ry="6"/><ellipse cx="14" cy="12" rx="4" ry="6"/><ellipse cx="18" cy="12" rx="4" ry="6"/></svg>`;
+ if(b==='BMW') return `<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="#fff" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 9 9h-9z" fill="currentColor"/><path d="M12 21a9 9 0 0 1-9-9h9z" fill="currentColor"/><path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="1"/></svg>`;
+ if(b==='Citroen') return `<svg viewBox="0 0 24 24" ${s}><path d="M4 9l8-4 8 4"/><path d="M4 15l8-4 8 4"/></svg>`;
+ if(b==='Dacia') return `<svg viewBox="0 0 24 24" ${s}><path d="M7 4h10l3 4v8l-3 4H7l-3-4V8z"/><path d="M8 8h8v8H8z"/></svg>`;
+ if(b==='Mercedes-Benz') return `<svg viewBox="0 0 24 24" ${s}><circle cx="12" cy="12" r="9"/><path d="M12 5v14M5.5 15.5L18.5 8M5.5 8l13 7.5"/></svg>`;
+ if(b==='Renault') return `<svg viewBox="0 0 24 24" ${s}><path d="M12 3l8 8-8 10-8-10z"/><path d="M9 8h6v8H9z"/></svg>`;
+ if(b==='Toyota') return `<svg viewBox="0 0 24 24" ${s}><ellipse cx="12" cy="12" rx="10" ry="7"/><ellipse cx="12" cy="12" rx="4" ry="7"/><path d="M3 12h18"/></svg>`;
+ if(b==='Volkswagen') return `<svg viewBox="0 0 24 24" ${s}><circle cx="12" cy="12" r="9"/><path d="M7 7l3 10 2-5 2 5 3-10M9 5h6"/></svg>`;
+ return `<svg viewBox="0 0 24 24" ${s}><circle cx="12" cy="12" r="8"/></svg>`;
+}
+function renderBrandLegend(){
+ const el=document.getElementById('brandLegend'); if(!el)return;
+ const brands=[...new Set(D.map(x=>x.brand).filter(Boolean))].sort();
+ el.innerHTML=brands.map(b=>`<span class="brandLegendItem"><span class="brandLogo">${brandLogo(b)}</span>${esc(b)}</span>`).join('');
+}
 function render(){
  let query=norm(q.value),b=brand.value,t=tool.value;
  let a=D.filter(x=>(!b||x.brand===b)&&(!t||x.lishi===t));
@@ -85,6 +108,7 @@ function render(){
 document.querySelectorAll('.mode').forEach(b=>b.onclick=()=>{document.querySelectorAll('.mode').forEach(x=>x.classList.remove('active'));b.classList.add('active');mode=b.dataset.mode;render()});
 [q,brand,tool].forEach(x=>x.addEventListener('input',render));
 document.getElementById('clr').onclick=()=>{q.value='';render()};
+renderBrandLegend();
 render();
 
 async function resetApp(){
