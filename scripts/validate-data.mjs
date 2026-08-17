@@ -5,7 +5,7 @@ const json=source.trim().replace(/^window\.LISHI_DATA\s*=\s*/,"").replace(/;$/,"
 const catalog=JSON.parse(json);
 const errors=[];
 const allowedStatuses=new Set(["verified","needs_review","not_available"]);
-const allowedMarkets=new Set(["AU","US","EU","JP","ASIA","GLOBAL","UNSPECIFIED"]);
+const allowedMarkets=new Set(["AU","US","EU","BR","CAN","JP","ASIA","GLOBAL","UNSPECIFIED"]);
 const seen=new Set();
 const problem=(index,message)=>errors.push("Запис "+(index+1)+": "+message);
 
@@ -28,11 +28,10 @@ for(const [index,record] of (catalog.cars||[]).entries()){
   if(record.alternativeLishi!==null&&record.alternativeLishi!==undefined&&!/^[A-Za-z0-9-]+$/.test(record.alternativeLishi))problem(index,"некоректний альтернативний код Lishi");
   if(record.alternativeLishi&&(!record.alternativeSource||!String(record.alternativeSource).trim()))problem(index,"альтернативний код не має джерела");
   if(record.alternativeLishi&&(!record.note||!String(record.note).trim()))problem(index,"альтернативний код не має примітки");
-  if(record.chip!==null&&record.chip!==undefined&&!/^[A-Za-z0-9-]+$/.test(record.chip))problem(index,"некоректний код чипа");
+  if(record.chip!==null&&record.chip!==undefined&&!/^[A-Za-z0-9() .-]+$/.test(record.chip))problem(index,"некоректний код чипа");
   const key=[record.brand,record.model,record.years,(record.markets||[]).join(","),record.ignition].join("|");
   if(seen.has(key))problem(index,"дубльований запис автомобіля");
   seen.add(key);
 }
 if(errors.length){console.error(errors.join("\n"));process.exit(1);}
 console.log("Каталог перевірено: "+catalog.cars.length+" записів, версія "+catalog.version+".");
-
