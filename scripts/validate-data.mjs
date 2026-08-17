@@ -3,15 +3,27 @@ import { readFile } from "node:fs/promises";
 const source=await readFile(new URL("../data.js",import.meta.url),"utf8");
 const json=source.trim().replace(/^window\.LISHI_DATA\s*=\s*/,"").replace(/;$/,"");
 const catalog=JSON.parse(json);
+const profileSource=await readFile(new URL("../profile-catalog.js",import.meta.url),"utf8");
+const profileJson=profileSource.trim().replace(/^window\.LISHI_PROFILES\s*=\s*/,"").replace(/;$/,"");
+const profileCatalog=JSON.parse(profileJson);
 const errors=[];
 const allowedStatuses=new Set(["verified","needs_review","not_available"]);
 const allowedMarkets=new Set(["AU","US","EU","ME","KR","BR","CAN","JP","ASIA","GLOBAL","UNSPECIFIED"]);
-const allowedKeyShapes=new Set(["edge","laser","fob","unknown"]);
+const allowedKeyShapes=new Set(["edge","laser","tibbe","fob","unknown"]);
 const seen=new Set();
 const problem=(index,message)=>errors.push("Запис "+(index+1)+": "+message);
+const profileProblem=message=>errors.push("Довідник профілів: "+message);
 
 if(!catalog.version)errors.push("Відсутня версія каталогу.");
 if(!Array.isArray(catalog.cars)||catalog.cars.length===0)errors.push("Каталог не містить записів.");
+if(!profileCatalog.version)profileProblem("відсутня версія.");
+if(!profileCatalog.profiles||typeof profileCatalog.profiles!=="object")profileProblem("відсутній об’єкт profiles.");
+for(const [code,profile] of Object.entries(profileCatalog.profiles||{})){
+  if(code!==code.toUpperCase())profileProblem("код "+code+" має бути у верхньому регістрі.");
+  if(!profile||!allowedKeyShapes.has(profile.shape))profileProblem("код "+code+" має невідому форму.");
+  if(!profile.source||!profileCatalog.sources||!profileCatalog.sources[profile.source])profileProblem("код "+code+" посилається на невідоме джерело.");
+  if(profile.url!==undefined&&!/^https?:\/\/[^\s]+$/i.test(profile.url))profileProblem("код "+code+" має некоректне посилання.");
+}
 for(const [index,record] of (catalog.cars||[]).entries()){
   for(const field of ["brand","model","years","ignition","status"]){
     if(typeof record[field]!=="string"||!record[field].trim())problem(index,"відсутнє поле "+field);
@@ -26,6 +38,7 @@ for(const [index,record] of (catalog.cars||[]).entries()){
   if(record.status==="verified"&&(!record.lishi||!String(record.lishi).trim()))problem(index,"перевірений запис не має коду Lishi");
   if(record.status!=="verified"&&(!record.note||!record.note.trim()))problem(index,"неперевірений запис не має пояснення");
   if(record.lishi!==null&&record.lishi!==undefined&&!/^[A-Za-z0-9()_-]+$/.test(record.lishi))problem(index,"некоректний код Lishi");
+  if(record.lishi&&!(profileCatalog.profiles||{})[String(record.lishi).toUpperCase()])problem(index,"код Lishi "+record.lishi+" відсутній у довіднику форм");
   if(record.alternativeLishi!==null&&record.alternativeLishi!==undefined&&!/^[A-Za-z0-9()_-]+$/.test(record.alternativeLishi))problem(index,"некоректний альтернативний код Lishi");
   if(record.alternativeLishi&&(!record.alternativeSource||!String(record.alternativeSource).trim()))problem(index,"альтернативний код не має джерела");
   if(record.alternativeLishi&&(!record.note||!String(record.note).trim()))problem(index,"альтернативний код не має примітки");
@@ -39,4 +52,15 @@ for(const [index,record] of (catalog.cars||[]).entries()){
   seen.add(key);
 }
 if(errors.length){console.error(errors.join("\n"));process.exit(1);}
+const usedProfiles=new Set(catalog.cars.map(record=>String(record.lishi||"").toUpperCase()).filter(Boolean));
+const confirmedProfiles=[...usedProfiles].filter(code=>{
+  const profile=profileCatalog.profiles[code];
+  return profile&&profile.shape!=="unknown"&&profile.source!=="reference";
+});
+const referenceProfiles=[...usedProfiles].filter(code=>{
+  const profile=profileCatalog.profiles[code];
+  return profile&&profile.shape!=="unknown"&&profile.source==="reference";
+});
+const unknownProfiles=[...usedProfiles].filter(code=>profileCatalog.profiles[code]&&profileCatalog.profiles[code].shape==="unknown");
 console.log("Каталог перевірено: "+catalog.cars.length+" записів, версія "+catalog.version+".");
+console.log("Форми профілів: "+confirmedProfiles.length+" підтверджено пріоритетним або офіційним джерелом, "+referenceProfiles.length+" довідникових, "+unknownProfiles.length+" очікують підтвердження.");
