@@ -16,7 +16,7 @@
     Toyota:'<svg viewBox="0 0 48 48" focusable="false"><g fill="none" stroke="#d71920" stroke-width="2.8"><ellipse cx="24" cy="24" rx="20" ry="13"/><ellipse cx="24" cy="24" rx="8" ry="13"/><ellipse cx="24" cy="18" rx="15" ry="6"/></g></svg>',
     Volkswagen:'<svg viewBox="0 0 48 48" focusable="false"><circle cx="24" cy="24" r="20" fill="#0b5a9c"/><circle cx="24" cy="24" r="16" fill="none" stroke="#fff" stroke-width="2"/><path d="m14 13 7 17 3-8 3 8 7-17M12 25l8 12 4-10 4 10 8-12" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>'
   };
-  const marketNames={AU:"Австралія",US:"США",EU:"Європа",BR:"Бразилія",CAN:"Канада",JP:"Японія",ASIA:"Азія",GLOBAL:"Глобальний",UNSPECIFIED:"Не вказано"};
+  const marketNames={AU:"Австралія",US:"США",EU:"Європа",ME:"Близький Схід",KR:"Південна Корея",BR:"Бразилія",CAN:"Канада",JP:"Японія",ASIA:"Азія",GLOBAL:"Глобальний",UNSPECIFIED:"Не вказано"};
   const ignitionNames={key:"Механічний ключ",smart:"Смарт-ключ / слот",prox:"Безключовий доступ",unknown:"Не вказано"};
   const normalize=value=>String(value||"").toLocaleLowerCase("uk").trim();
   const uniqueSorted=items=>[...new Set(items.filter(Boolean))].sort((a,b)=>a.localeCompare(b,"uk"));
