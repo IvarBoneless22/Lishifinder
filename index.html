@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#0b3554">
+  <meta name="theme-color" content="#071f32">
   <meta name="description" content="Довідковий каталог сумісності автомобілів та Lishi.">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -14,33 +14,42 @@
   <title>Lishi Finder</title>
 </head>
 <body>
-  <header>
+  <header class="appHeader">
+    <div class="headerOrb headerOrbOne" aria-hidden="true"></div>
+    <div class="headerOrb headerOrbTwo" aria-hidden="true"></div>
     <div class="brandline">
-      <div class="logo" aria-hidden="true">🔑</div>
-      <div>
-        <h1>Lishi Finder</h1>
-        <p>Автомобіль → Lishi • Lishi → автомобілі</p>
+      <div class="logo" aria-hidden="true">
+        <svg viewBox="0 0 48 48" role="presentation"><path d="M20.3 29.8a12 12 0 1 1 5.9-5.9L44 24v7h-5v5h-6v5h-8l-4.7-4.7a12 12 0 0 1 0-6.5Zm-8.3-9.8a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"/></svg>
       </div>
+      <div class="brandCopy">
+        <span class="brandEyebrow">Професійний автомобільний каталог</span>
+        <h1>Lishi Finder</h1>
+        <p>Швидкий підбір профілю за автомобілем або кодом Lishi</p>
+      </div>
+      <div class="headerStatus"><span aria-hidden="true"></span>Працює офлайн</div>
     </div>
   </header>
   <main>
-    <section class="install" aria-label="Встановлення застосунку">
-      📱 <b>iPhone:</b> Safari → «Поділитися» → «На початковий екран».
-    </section>
-    <section class="disclaimer" role="note">
-      Каталог має довідковий характер. Використовуйте його лише для законних робіт із дозволу власника автомобіля; перед роботою звіряйте ринок, рік і тип ключа.
-    </section>
+    <div class="noticeGrid">
+      <section class="install" aria-label="Встановлення застосунку">
+        <span class="noticeIcon" aria-hidden="true">↗</span><div><b>Додайте на iPhone</b><span>Safari → «Поділитися» → «На початковий екран»</span></div>
+      </section>
+      <section class="disclaimer" role="note">
+        <span class="noticeIcon" aria-hidden="true">!</span><div><b>Важлива перевірка</b><span>Працюйте лише з дозволу власника та звіряйте ринок, рік і тип ключа.</span></div>
+      </section>
+    </div>
     <section class="searchPanel" aria-label="Пошук у каталозі">
+      <div class="panelIntro"><div><span>Пошук у каталозі</span><h2>Знайдіть потрібний профіль</h2></div><div id="catalogPill" class="catalogPill">Каталог завантажено</div></div>
       <label class="srOnly" for="q">Пошук</label>
       <div class="search">
-        <span aria-hidden="true">🔎</span>
+        <span class="searchIcon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg></span>
         <input id="q" type="search" placeholder="Toyota RAV4, Volkswagen Golf…" autocomplete="off" enterkeyhint="search">
         <button class="clear" id="clr" type="button" aria-label="Очистити пошук" title="Очистити пошук">×</button>
       </div>
       <div class="modes" role="group" aria-label="Напрямок пошуку">
-        <button class="mode active" type="button" data-mode="auto" aria-pressed="true">🚗 Авто → Lishi</button>
-        <button class="mode" type="button" data-mode="lishi" aria-pressed="false">🔧 Lishi → Авто</button>
-        <button class="mode" type="button" data-mode="compare" aria-pressed="false">📚 Порівняти</button>
+        <button class="mode active" type="button" data-mode="auto" aria-pressed="true">Авто → Lishi</button>
+        <button class="mode" type="button" data-mode="lishi" aria-pressed="false">Lishi → Авто</button>
+        <button class="mode" type="button" data-mode="compare" aria-pressed="false">Порівняти</button>
       </div>
       <div class="filterGrid">
         <div class="field brandField">
@@ -59,7 +68,7 @@
         <div class="field"><label for="year">Рік</label><input id="year" type="number" min="1900" max="2100" inputmode="numeric" placeholder="Напр. 2018"></div>
         <div class="field fieldWide"><label for="tool">Код Lishi</label><select id="tool"><option value="">Усі перевірені коди</option></select></div>
       </div>
-      <button id="manageSources" class="sourceManagerButton" type="button">📥 Джерела та імпорт <span id="sourceCount">0 зовнішніх</span></button>
+      <button id="manageSources" class="sourceManagerButton" type="button"><span class="sourceManagerLabel"><span class="sourceManagerIcon" aria-hidden="true">↓</span>Джерела та імпорт</span><span id="sourceCount">0 зовнішніх</span></button>
     </section>
     <section class="quickBrands" aria-labelledby="quickBrandsTitle"><h2 id="quickBrandsTitle">Швидкий вибір марки</h2><div id="brandChips" class="brandChips"></div></section>
     <div id="modeHelp" class="modeHelp" aria-live="polite"></div>
@@ -112,7 +121,7 @@
       </div>
     </div>
   </dialog>
-  <footer>Lishi Finder • офлайн-каталог • дані оновлюються вручну</footer>
+  <footer><strong>Lishi Finder</strong><span>Офлайн-каталог • дані оновлюються вручну</span></footer>
   <noscript><p class="noscript">Для роботи каталогу потрібно увімкнути JavaScript.</p></noscript>
   <script src="data.js"></script>
   <script src="profile-catalog.js"></script>
